@@ -1,0 +1,354 @@
+:root {
+  --bs-primary: #2A5F8B;
+  --bs-text-primary: #2A5F8B;
+  --bs-custom-primary: #2A5F8B;
+  --bs-text-secondary: #2A4A8C;
+  --bs-custom-light: #f4f4f4;
+  --bs-table-light: #F9FAFB;
+  --bs-gray-50: #757575;
+  --bs-custom-gray: #506373;
+  --bs-stroke: #DAE7F2;
+  --bs-custom-dark: #142533;
+  --bs-gray-400: #DAE7F2;
+  --bs-gray-900: #414141;
+  --bs-primary-active: #2A4A8C ;
+}
+
+.bg-custom-primary {
+  background-color: var(--bs-custom-primary);
+  color: var(--bs-white);
+}
+
+.text-custom-primary {
+  color: var(--bs-custom-primary);
+}
+
+.bg-custom-info {
+  background-color: var(--bs-custom-info);
+  color: var(--bs-white);
+}
+
+.text-custom-info {
+  color: var(--bs-custom-info);
+}
+
+.bg-custom-light-primary {
+  background-color: var(--bs-custom-light-primary) !important;
+}
+
+.bg-custom-light-green {
+  background-color: var(--bs-custom-light-green) !important;
+}
+
+.bg-custom-orange {
+  background-color: var(--bs-custom-orange);
+  color: var(--bs-white);
+}
+
+.text-custom-orange {
+  color: var(--bs-custom-orange);
+}
+
+.bg-custom-orange:hover {
+  background-color: var(--bs-custom-orange);
+  color: var(--bs-white);
+}
+
+.text-gray-50 {
+  color: var(--bs-gray-50);
+}
+
+.text-custom-gray {
+  color: var(--bs-custom-gray);
+}
+
+.bg-custom-light {
+  background-color: #fafafa;
+}
+
+.back-w {
+  background-color: #fff;
+}
+
+.bg-custom-table-light {
+  background-color: var(--bs-table-light);
+}
+
+.text-stroke {
+  color: var(--bs-stroke);
+}
+
+.text-custom-dark {
+  color: var(--bs-custom-dark);
+}
+
+.text-gray-900 {
+  color: var(--bs-gray-900) !important;
+}
+
+/* ---------- Custom font ---------- */
+@font-face {
+  font-family: "Kannada";
+  src: url("../fonts/Kannada/KannadaMN.ttc") format("woff2"), url("../fonts/Kannada/KannadaMN.ttc") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Kannada";
+  src: url("../fonts/Kannada/kannada-mn-bold.ttf") format("woff2"), url("../fonts/Kannada/kannada-mn-bold.ttf") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+/* ---------- Custom variables font ---------- */
+/* ===== Icomoon font ===== */
+@font-face {
+  font-family: "icomoon";
+  src: url("../fonts/icomoon.eot");
+  src: url("../fonts/icomoon.eot") format("embedded-opentype"), url("../fonts/icomoon.ttf") format("truetype"), url("../fonts/icomoon.woff") format("woff"), url("../fonts/icomoon.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+[class^=icon-],
+[class*=" icon-"] {
+  font-family: "icomoon" !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  position: relative;
+  display: inline-flex;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Dashboard:before {
+  content: "\e908";
+}
+
+.icon-Setting:before {
+  content: "\e909";
+}
+
+.icon-down:before {
+  content: "\e907";
+}
+
+.icon-file:before {
+  content: "\e902";
+}
+
+.icon-good:before {
+  content: "\e906";
+}
+
+.icon-info-circle:before {
+  content: "\e90a";
+}
+
+.icon-right-left:before {
+  content: "\e905";
+}
+
+/*========================================
+/* general style
+========================================*/
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  text-transform: capitalize;
+  font-family: "Kannada", sans-serif;
+}
+
+.form-control {
+  border: 1px solid var(--bs-gray-400);
+}
+.form-control::-moz-placeholder {
+  color: var(--bs-custom-gray);
+  opacity: 1;
+  font-size: 14px;
+}
+.form-control::placeholder {
+  color: var(--bs-custom-gray);
+  opacity: 1;
+  font-size: 14px;
+}
+
+.vertical-line {
+  display: inline-block;
+  align-self: stretch;
+  width: 2px;
+  min-height: 1em;
+  background-color: currentcolor;
+  opacity: 1;
+  color: #EAECF0;
+}
+
+ul {
+  list-style: none;
+}
+
+.card {
+  border: 1px solid var(--bs-stroke);
+}
+
+/*========================================
+/* Login Page
+========================================*/
+.form-control {
+  font-weight: 400;
+}
+
+.login-page .left-page {
+  background-color: rgba(0, 84, 235, 0.04);
+  position: relative;
+}
+.login-page .left-page::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  display: block;
+  background-image: url("../../../assets/media/logos/Frame.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 0;
+  top: -5px;
+}
+.login-page .show-password {
+  right: 5px;
+  top: 40px;
+}
+
+.toggle-password {
+  float: right;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: -25px;
+}
+
+.inputs input {
+  width: 40px;
+  height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1px solid var(--bs-primary);
+}
+
+.validate {
+  border-radius: 20px;
+  height: 40px;
+  background-color: var(--bs-primary);
+  border: 1px solid var(--bs-primary);
+  width: 140px;
+}
+
+/*========================================
+/* layout & Sidebar
+========================================*/
+.app-content {
+  background-color: #F5F8FA;
+}
+
+#kt_app_header_container {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+#kt_app_sidebar_logo {
+  margin: -1px 0;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.app-sidebar-logo-default {
+  height: 60px;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.app-sidebar-logo {
+  justify-content: center !important;
+}
+
+.app-login-logo-default {
+  height: 200px;
+  width: 350px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.app-sidebar .menu .menu-item .menu-link.active {
+  transition: color 0.2s ease;
+  background-color: var(--bs-app-sidebar-light-menu-link-bg-color-active);
+  color: var(--bs-primary);
+  border-right: 5px solid #2A5F8B;
+}
+
+.app-sidebar .menu .menu-item .menu-link .menu-title {
+  color: var(--bs-custom-dark) !important;
+}
+
+.app-sidebar .menu .menu-item .menu-link.active .menu-title {
+  color: var(--bs-primary) !important;
+}
+
+.user-img {
+  border: 2px solid #F1F5F7;
+  border-radius: 50% !important;
+  padding: 2px;
+}
+
+.app-sidebar {
+  background-color: #fff !important;
+}
+.app-sidebar .app-sidebar-toggle {
+  border-radius: 10px !important;
+  box-shadow: 0px 8px 14px rgba(15, 42, 81, 0.04) !important;
+  background-color: #ffffff !important;
+  border: 1px solid #F1F1F2 !important;
+}
+.app-sidebar .app-sidebar-toggle .ki-black-left-lineant {
+  left: 25px;
+  color: rgb(165, 165, 165);
+}
+
+.language-switcher {
+  border: 2px solid #E0E0E0;
+  border-radius: 6px;
+  background: #F5F8FA;
+  padding: 5px;
+  color: #9F9F9F;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+
+/*========================================
+/* ChartV1
+========================================*/
+.ChartV1,
+.barChart {
+  background-color: rgb(249, 250, 251);
+}
+
+.ChartV2 {
+  background-color: rgba(254, 58, 70, 0.08);
+}/*# sourceMappingURL=custom-style.css.map */
