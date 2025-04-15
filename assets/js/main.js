@@ -20,9 +20,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
   });
 
 
-
-
-
   // Stepper lement
 var element = document.querySelector("#kt_stepper_example_basic");
 
@@ -38,3 +35,5 @@ stepper.on("kt.stepper.next", function (stepper) {
 stepper.on("kt.stepper.previous", function (stepper) {
     stepper.goPrevious(); // go previous step
 });
+
+
