@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Insurance Requests</title>
+	<title>Elite Middleware / Logs</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -75,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7">Insurance Requests</li>
+								<li class="breadcrumb-item text-custom-gray fs-7">Log List</li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -316,7 +316,7 @@
 									<div class="menu-item menu-accordion">
 										<!--begin:Menu link-->
 										<a href="Insurance-Requests.html">
-											<span class="menu-link rounded-0 active p-3">
+											<span class="menu-link p-3">
 												<span class="menu-icon">
 													<i class="isax isax-document-download fs-2"></i>
 												</span>
@@ -364,7 +364,7 @@
 									<div class="menu-item menu-accordion">
 										<!--begin:Menu link-->
 										<a href="/Logs.html">
-											<span class="menu-link p-3">
+											<span class="menu-link rounded-0 active p-3">
 												<span class="menu-icon">
 													<i class="isax isax-note-21 fs-2"></i>
 												</span>
@@ -499,11 +499,10 @@
                                                     <div class="card-title align-items-start flex-column">
                                                         <span class="d-flex align-items-center text-dark title-icon">
 															<span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
-																<i class="ki-solid ki-file-down fs-4 fw-bold text-primary">
-																</i>
+																<i class="isax isax-note-21 fs-4 text-primary"></i>
 															</span>
                                                         
-                                                            <h3 class="card-title fw-bold fs-3 m-0"> Insurance Requests </h3>
+                                                            <h3 class="card-title fw-bold fs-3 m-0"> Log List </h3>
                                                           </span>
                                                     </div>
 													<div class="card-toolbar ">
@@ -516,7 +515,7 @@
 																</i>
 																<input type="text" 
 																	class="form-control form-control-sm text-custom-gray rounded-3 ps-11" 
-																	placeholder="Search by request ID, partner name, or port">
+																	placeholder="Search Here ...">
 															</div>
 													
 															<!-- Filter Select -->
@@ -546,13 +545,11 @@
                                                             <thead class="rounded ">
                                                                 <tr class="fw-bold text-custom-gray">
                                                                     <th class="p-4">#</th>
-                                                                    <th class="p-4 min-w-125px">Partner</th>
-                                                                    <th class="p-4 min-w-125px">Status</th>
-                                                                    <th class="p-4 min-w-200px">Date</th>
-                                                                    <th class="p-4 min-w-150px">Product</th>
-                                                                    <th class="p-4 min-w-150px">Origin</th>
-                                                                    <th class="p-4 min-w-150px">Destination</th>
-                                                                    <th class="p-4 min-w-150px">Created At</th>
+                                                                    <th class="p-4 min-w-125px">User</th>
+                                                                    <th class="p-4 min-w-125px">Event</th>
+                                                                    <th class="p-4 min-w-200px">Auditable Type</th>
+                                                                    <th class="p-4 min-w-150px">IP Address</th>
+                                                                    <th class="p-4 min-w-150px">Date and Time</th>
                                                                     <th class="p-4 min-w-100px">Actions</th>
                                                                 </tr>
                                                             </thead>
@@ -561,31 +558,27 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">1</span>
+                                                                        <span class="text-custom-dark d-block fs-6">1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-success fw-semibold fs-6 p-2">Approved</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="View-Request.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -597,31 +590,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">2</span>
+                                                                        <span class="text-custom-dark d-block fs-6">2</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Nihal Zakaria Al Afandi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-primary fw-semibold fs-6 p-2">Submitted</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Request</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">172.16.254.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">December 1, 2023, at 11:00 AM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -633,31 +622,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">3</span>
+                                                                        <span class="text-custom-dark d-block fs-6">3</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-danger fw-semibold fs-6 p-2">Cancelled</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -669,31 +654,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">4</span>
+                                                                        <span class="text-custom-dark d-block fs-6">4</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-danger fw-semibold fs-6 p-2">Cancelled</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -705,31 +686,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">5</span>
+                                                                        <span class="text-custom-dark d-block fs-6">5</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-success fw-semibold fs-6 p-2">Approved</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -741,31 +718,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">6</span>
+                                                                        <span class="text-custom-dark d-block fs-6">6</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Nihal Zakaria Al Afandi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-primary fw-semibold fs-6 p-2">Submitted</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Request</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">172.16.254.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">December 1, 2023, at 11:00 AM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -777,31 +750,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">7</span>
+                                                                        <span class="text-custom-dark d-block fs-6">7</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-danger fw-semibold fs-6 p-2">Cancelled</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -813,31 +782,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">8</span>
+                                                                        <span class="text-custom-dark d-block fs-6">8</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-danger fw-semibold fs-6 p-2">Cancelled</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -849,31 +814,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">9</span>
+                                                                        <span class="text-custom-dark d-block fs-6">9</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-success fw-semibold fs-6 p-2">Approved</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -885,31 +846,27 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">10</span>
+                                                                        <span class="text-custom-dark d-block fs-6">10</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Partner Name</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="badge badge-light-primary fw-semibold fs-6 p-2">Submitted</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
+                                                   
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
+                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Insurance product</span>
+                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Crystal Bay Resort</span>
+                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
                                                                     </td>
+                                                               
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">Sunnyvale Beach</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark fw-semibold d-block fs-6">October 10, 2023</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <a href="#" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
+                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light eye-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>

@@ -20,15 +20,16 @@
 	<!--begin::Root-->
 	<div class="d-flex flex-column flex-root" id="kt_app_root">
 		<!--begin::Authentication - Sign-in -->
-		<div class="d-flex flex-column flex-lg-row flex-column-fluid">
+		<div class="d-flex flex-column flex-lg-row flex-column-fluid justify-content-center">
 			<!--begin::Body-->
 			<div class="d-flex flex-column flex-lg-row-fluid w-lg-50 p-10 order-1 order-lg-2 back-w">
 				<!--begin::Form-->
 				<div class="d-flex flex-center flex-column flex-lg-row-fluid">
 					<!--begin::Wrapper-->
 					<div class="w-lg-75 p-10">
-						<!--begin::Form-->
-						<form class="form w-100">
+
+						<!--begin::Form Verification Code -->
+						<form class="form w-100" hidden>
 							<!--begin::Heading-->
 							<div class="mb-10">
 								<!--begin::Title-->
@@ -67,9 +68,49 @@
 
 
 						</form>
+						<!--end::Form Verification Code -->
+
+							<!--begin::Form-->
+						<form class="form w-100">
+							<!--begin::Heading-->
+							<div class="mb-10">
+								<!--begin::Title-->
+								<div class="d-flex align-items-center">
+									<!--begin::Avatar-->
+									<div class="symbol symbol-55px symbol-circle me-3">
+										<span class="symbol-label bg-success">
+											<span class="ki-duotone ki-check text-white fw-semibold fs-4x rounded"></span>
+										  </span>
+								
+							
+									</div>
+									<!--end::Avatar-->
+									<!--begin::Username-->
+									<div class="d-flex flex-column">
+										<div class="fw-bold d-flex align-items-center text-capitalize fs-2x">
+											Password Reset Successfully
+
+										</div>
+										<span class="ftext-custom-dark fs-6">
+											A new password has been reset for your account. You can now log in.
+										</span>
+									</div>
+									<!--end::Username-->
+								</div>
+								
+							</div>
+							<!--begin::Heading-->
+
+							<!--begin::Submit button-->
+							<div class="d-grid mb-5">
+								<a href="index.html" type="submit" id="" class="btn btn-primary btn-lg">
+                                    Login
+								</a>
+							</div>
+
+
+						</form>
 						<!--end::Form-->
-
-
 					</div>
 					<!--end::Wrapper-->
 				</div>
