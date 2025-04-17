@@ -330,7 +330,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: none;
 }
 
-.select2-container--bootstrap5 .select2-selection:after {
+.filter-select .select2-container--bootstrap5 .select2-selection:after {
   content: "";
   display: block;
   position: absolute;
