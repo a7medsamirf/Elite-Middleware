@@ -17,7 +17,18 @@
   --bs-border-color: #DAE7F2;
   --bs-table-striped: #F5F8FA;
   --bs-success: #2A8C52;
+  --bs-danger: #8C2A30;
+  --bs-text-danger: #8C2A30;
   --bs-custom-placeholder: #8799A8;
+  --bs-btn-light: #EAEDF4 ;
+}
+
+.custom-btn-light {
+  background-color: var(--bs-btn-light);
+  color: var(--bs-custom-gray);
+}
+.custom-btn-light:hover {
+  background-color: var(--bs-gray-400);
 }
 
 .bg-light {
@@ -233,7 +244,7 @@ ul {
 .table td.custom-bg {
   background-color: #DAE7F2;
 }
-.table .eye-icon {
+.table .bg-icon {
   background-color: #DAE7F2;
 }
 
@@ -317,13 +328,19 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .select2-container--bootstrap5 .select2-search.select2-search--inline .select2-search__field::-moz-placeholder {
-  color: var(--bs-text-primary);
+  color: var(--bs-custom-placeholder);
+  opacity: 1;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .select2-container--bootstrap5 .select2-search.select2-search--inline .select2-search__field::placeholder,
 .select2-container--bootstrap5 .select2-selection--single .select2-selection__placeholder,
 .select2-container--bootstrap5 .select2-selection--single .select2-selection__rendered {
-  color: var(--bs-text-primary);
+  color: var(--bs-custom-placeholder);
+  opacity: 1;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .select2-container--bootstrap5 .select2-selection__arrow {
@@ -357,6 +374,10 @@ input[type=number]::-webkit-outer-spin-button {
 /*========================================
 /* layout & Sidebar
 ========================================*/
+.app-header {
+  border-bottom: 1px solid #DAE7F2;
+}
+
 .app-content {
   background-color: #F5F8FA;
 }

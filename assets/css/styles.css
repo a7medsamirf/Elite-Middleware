@@ -13270,20 +13270,17 @@
   
   .isax-layer1 .path1:before {
     content: "\f2b1";
-    color: rgb(41, 45, 50);
   }
   
   .isax-layer1 .path2:before {
     content: "\f2b2";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
     opacity: 0.4;
   }
   
   .isax-layer1 .path3:before {
     content: "\f2b3";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
     opacity: 0.4;
   }
   

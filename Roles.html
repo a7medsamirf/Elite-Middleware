@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Logs</title>
+	<title>Elite Middleware / Roles And Permissions</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -64,7 +64,7 @@
 							<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
 								<!--begin::Item-->
 								<li class="breadcrumb-item">
-									<a href="" class="text-custom-gray fs-6">Dashboard</a>
+									<a href="" class="text-custom-gray fs-6">Overview</a>
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
@@ -75,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7">Log List</li>
+								<li class="breadcrumb-item text-custom-gray fs-7">Roles And Permissions</li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -274,141 +274,141 @@
 
 					</div>
 
-
 					<!--end::Logo-->
-			<!--begin::sidebar menu-->
-			<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
-				<!--begin::Menu wrapper-->
-				<div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper">
-					<!--begin::Scroll wrapper-->
-					<div id="kt_app_sidebar_menu_scroll" class="scroll-y my-5 mx-3" data-kt-scroll="true"
-						data-kt-scroll-activate="true" data-kt-scroll-height="auto"
-						data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
-						data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
-						data-kt-scroll-save-state="true">
-						<!--begin::Menu-->
+
+				<!--begin::sidebar menu-->
+				<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
+					<!--begin::Menu wrapper-->
+					<div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper">
+						<!--begin::Scroll wrapper-->
+						<div id="kt_app_sidebar_menu_scroll" class="scroll-y my-5 mx-3" data-kt-scroll="true"
+							data-kt-scroll-activate="true" data-kt-scroll-height="auto"
+							data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
+							data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
+							data-kt-scroll-save-state="true">
+							<!--begin::Menu-->
 
 
-						<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
-							id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
-							<!--begin:Menu content-->
-							<div class="menu-item">
+							<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
+								id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
 								<!--begin:Menu content-->
-								<div class="menu-content">
-									<span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
+								<div class="menu-item">
+									<!--begin:Menu content-->
+									<div class="menu-content">
+										<span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
+									</div>
+									<!--end:Menu content-->
 								</div>
-								<!--end:Menu content-->
-							</div>
-							<!--End:Menu content-->
-							<!--begin:Menu item-->
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="index.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-category fw-bold fs-2"></i>
+								<!--End:Menu content-->
+								<!--begin:Menu item-->
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="index.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-category fw-bold fs-2"></i>
 
+											</span>
+											<span class="menu-title">Dashboard</span>
 										</span>
-										<span class="menu-title">Dashboard</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Insurance-Requests.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-document-download fs-2"></i>
+									</a>
+								</div>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Insurance-Requests.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-document-download fs-2"></i>
+											</span>
+											<span class="menu-title">Insurance Requests</span>
 										</span>
-										<span class="menu-title">Insurance Requests</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="rating-table.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-layer fs-2"></i>
+									</a>
+								</div>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="rating-table.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-layer fs-2"></i>
+											</span>
+											<span class="menu-title">rating table</span>
 										</span>
-										<span class="menu-title">rating table</span>
-									</span>
-								</a>
-							</div>
-							<!--begin::Separator-->
-							<div class="separator separator my-5 mx-3 border-1"></div>
-							<!--end::Separator-->
-							<!--begin:Menu content-->
-							<div class="menu-item">
+									</a>
+								</div>
+								<!--begin::Separator-->
+								<div class="separator separator my-5 mx-3 border-1"></div>
+								<!--end::Separator-->
 								<!--begin:Menu content-->
-								<div class="menu-content">
-									<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
+								<div class="menu-item">
+									<!--begin:Menu content-->
+									<div class="menu-content">
+										<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
+									</div>
+									<!--end:Menu content-->
 								</div>
-								<!--end:Menu content-->
-							</div>
-							<!--End:Menu content-->
+								<!--End:Menu content-->
 
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Users.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-profile-2user fs-2"></i>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Users.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-profile-2user fs-2"></i>
+											</span>
+											<span class="menu-title">Users</span>
 										</span>
-										<span class="menu-title">Users</span>
-									</span>
-								</a>
-							</div>
-					
-
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="/Logs.html">
-									<span class="menu-link rounded-0 active p-3">
-										<span class="menu-icon">
-											<i class="isax isax-note-21 fs-2"></i>
-										</span>
-										<span class="menu-title">Logs</span>
-									</span>
-								</a>
-							</div>
+									</a>
+								</div>
 						
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Roles.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-check fs-2"></i>
+
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="/Logs.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-note-21 fs-2"></i>
+											</span>
+											<span class="menu-title">Logs</span>
 										</span>
-										<span class="menu-title">Roles And Permissions</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Business-Partner.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
+									</a>
+								</div>
 							
-											<i class="ki-outline ki-setting-2 fs-2"></i>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Roles.html">
+										<span class="menu-link rounded-0 active p-3">
+											<span class="menu-icon">
+												<i class="isax isax-check fs-2"></i>
+											</span>
+											<span class="menu-title">Roles And Permissions</span>
 										</span>
-										<span class="menu-title">Business Partner Incoterm</span>
-									</span>
-								</a>
+									</a>
+								</div>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Business-Partner.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+								
+												<i class="ki-outline ki-setting-2 fs-2"></i>
+											</span>
+											<span class="menu-title">Business Partner Incoterm</span>
+										</span>
+									</a>
+								</div>
+
 							</div>
 
+
+
+							<!--end::Menu-->
 						</div>
-
-
-
-						<!--end::Menu-->
+						<!--end::Scroll wrapper-->
 					</div>
-					<!--end::Scroll wrapper-->
+					<!--end::Menu wrapper-->
 				</div>
-				<!--end::Menu wrapper-->
-			</div>
-			<!--end::sidebar menu-->
-
+				<!--end::sidebar menu-->
+					
 					<!--begin::Footer-->
 					<div class="app-sidebar-footer flex-column-auto d-flex justify-content-center"
 						id="kt_app_sidebar_footer">
@@ -510,10 +510,10 @@
                                                     <div class="card-title align-items-start flex-column">
                                                         <span class="d-flex align-items-center text-dark title-icon">
 															<span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
-																<i class="isax isax-note-21 fs-4 text-primary"></i>
+																<i class="isax isax-check5 fs-4 text-primary"></i>
 															</span>
                                                         
-                                                            <h3 class="card-title fw-bold fs-3 m-0"> Log List </h3>
+                                                            <h3 class="card-title fw-bold fs-3 m-0"> Roles And Permissions </h3>
                                                           </span>
                                                     </div>
 													<div class="card-toolbar ">
@@ -531,7 +531,7 @@
 													
 															<!-- Filter Select -->
 														      <div class="filter-select min-w-100px">
-																<select class="form-select form-select-sm filter-select rounded-3" 
+																<select class="form-select form-select-sm rounded-3" 
 																			data-control="select2" 
 																			data-placeholder="Filter"
 																			data-hide-search="true">
@@ -541,6 +541,10 @@
 																	<option value="3">Filter 3</option>
 																</select>
 															</div>
+                                                                <!-- Create Role -->
+                                                            <div class="min-w-100px">
+                                                                <a href="Create-Role.html" type="button" class="btn btn-primary btn-sm"> Create Role</a>
+                                                            </div>
 														</div>
 													</div>
                                                 </div>
@@ -554,12 +558,8 @@
                                                             <!--begin::Table head-->
                                                             <thead class="rounded ">
                                                                 <tr class="fw-bold text-custom-gray">
-                                                                    <th class="p-4">#</th>
-                                                                    <th class="p-4 min-w-125px">User</th>
-                                                                    <th class="p-4 min-w-125px">Event</th>
-                                                                    <th class="p-4 min-w-200px">Auditable Type</th>
-                                                                    <th class="p-4 min-w-150px">IP Address</th>
-                                                                    <th class="p-4 min-w-150px">Date and Time</th>
+                                                                    <th class="p-4 min-w-200px">#</th>
+                                                                    <th class="p-4 min-w-200px">Role</th>
                                                                     <th class="p-4 min-w-100px">Actions</th>
                                                                 </tr>
                                                             </thead>
@@ -568,27 +568,20 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">1</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Data Entry</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -600,27 +593,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">2</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">2</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Nihal Zakaria Al Afandi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Request</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">172.16.254.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">December 1, 2023, at 11:00 AM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -632,27 +618,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">3</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">3</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -664,27 +643,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">4</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">4</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Noha Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -696,27 +668,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">5</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">5</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -728,27 +693,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">6</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">6</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Nihal Zakaria Al Afandi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Request</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">172.16.254.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">December 1, 2023, at 11:00 AM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -760,27 +718,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">7</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">7</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -792,27 +743,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">8</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">8</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -824,27 +768,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">9</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">9</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Bakri Fahd Al Musa'bi</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Created</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Insurance Company</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">192.168.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">October 10, 2023, at 2:30 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
@@ -856,27 +793,20 @@
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">10</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">10</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Ilham Mahmoud Qasim</span>
+                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
                                                                     </td>
+                                            
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Updated</span>
-                                                   
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">Quotation</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">10.1.1.1</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-dark d-block fs-6">February 5, 2024, at 4:15 PM.</span>
-                                                                    </td>
-                                                               
-                                                                    <td class="p-4">
-                                                                        <a href="Log-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
+                                                                                            <span class="path1"></span>
+                                                                                            <span class="path2"></span>
+                                                                                 </i>
+                                                                        </a>
+                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>

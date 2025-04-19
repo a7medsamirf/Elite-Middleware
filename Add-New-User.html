@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Quotation Request</title>
+	<title>Elite Middleware / Users</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -22,6 +22,7 @@
 	data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true"
 	data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
 	data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-fixed="true" class="app-default">
+
 
 
 	<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
@@ -74,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7">Quotation Request</li>
+								<li class="breadcrumb-item text-custom-gray fs-7"> Users List </li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -93,7 +94,6 @@
 									<span
 										class="position-absolute top-0 start-100 translate-middle badge badge-circle badge-danger ms-n4 mt-3">14</span>
 								</button>
-
 								<!--begin::User account menu-->
 								<div>
 									<div class="d-flex align-items-center px-3 cursor-pointer"
@@ -227,8 +227,8 @@
 			<!--end::Header-->
 			<!--begin::Wrapper-->
 			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
-				<!--begin::Sidebar-->
-				<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
+					<!--begin::Sidebar-->
+                    <div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
 					data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}"
 					data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start"
 					data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
@@ -275,7 +275,8 @@
 					</div>
 
 
-								
+					<!--end::Logo-->
+					
 					<!--begin::sidebar menu-->
 					<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
 						<!--begin::Menu wrapper-->
@@ -316,7 +317,7 @@
 									<div class="menu-item menu-accordion">
 										<!--begin:Menu link-->
 										<a href="Insurance-Requests.html">
-											<span class="menu-link rounded-0 active p-3">
+											<span class="menu-link p-3">
 												<span class="menu-icon">
 													<i class="isax isax-document-download fs-2"></i>
 												</span>
@@ -351,7 +352,7 @@
 									<div class="menu-item menu-accordion">
 										<!--begin:Menu link-->
 										<a href="Users.html">
-											<span class="menu-link p-3">
+											<span class="menu-link rounded-0 active p-3">
 												<span class="menu-icon">
 													<i class="isax isax-profile-2user fs-2"></i>
 												</span>
@@ -521,7 +522,7 @@
 													<!--begin::Title-->
 													<div>
 														<div class="page-heading text-primary fw-bold fs-5 my-0">
-															Quotation Request (19703)
+															Back
 														</div>
 														<!--end::Title-->
 									
@@ -531,12 +532,14 @@
 												<!--end::Page title-->
 											</div>
 									
-											<div class="d-flex align-items-center">
-													<a href="#" class="btn btn-sm btn-success">
-
-														<i class="isax isax-document-download5 text-white fs-5 me-1"></i>
-														Download
+											<div class="d-flex align-items-center gap-3">
+													<a href="#" class="btn custom-btn-light btn-sm px-10">
+														Cancel
 													</a>
+                                                    <a href="#" class="btn btn-primary btn-sm px-10">
+														Save
+													</a>
+
 												</div>
 									
 												</div>
@@ -546,334 +549,123 @@
 									</div>
 										<!--end::Toolbar container-->
 
-								<section class="">
-									<div class="row">
-										<div class="col-lg-12">
-										<div class="card">
-											<div class="card-body p-5">
 
-											<!--Start::Quotation Details-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Quotation Details </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Partner </span>
-																		<span class="text-custom-gray fw-semibold fs-6">Al Rowad</span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="mb-1"><span class="text-custom-dark fs-7">Status</span>	</div>
-																	<div><span class="badge badge-light-success fw-semibold fs-6 p-2">Approved</span></div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Date</span>
-																		<span class="text-custom-gray fw-semibold fs-6">02-01-2025</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-	                                          <!--end::Quotation Details-->
+							<!--begin::Main-->
+							<div class="d-flex flex-column flex-column-fluid">
 
-	                                         	<!--Start::Route Details-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Route Details </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1"> Origin </span>
-																		<span class="text-custom-gray fw-semibold fs-6"> Suadi Arbia, Jeddah Port </span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Destination</span>
-																		<span class="text-custom-gray fw-semibold fs-6">US NYC, New York</span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Container Type</span>
-																		<span class="text-custom-gray fw-semibold fs-6">Half Height Container</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												 <!--End::Route Details-->
-
-											 	<!--Start::Cargo Info-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Cargo Info </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1"> Container Weight  </span>
-																		<span class="text-custom-gray fw-semibold fs-6"> 50 </span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Category</span>
-																		<span class="text-custom-gray fw-semibold fs-6">Categoryk</span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-12">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Cargo Description</span>
-																		<span class="text-custom-gray fw-semibold fs-6">This cargo consists of a shipment of high-quality electronic components, including resistors, capacitors, and microchips, carefully packed to ensure safe delivery. The total weight is approximately 500 kilograms, and it is scheduled for transport from Tech City to Innovation Hub.</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												 <!--End::Cargo Info-->
-
-											<!--Start::Goods List-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Goods List </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<ol class="">
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">High-quality electronic components</li>
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">Resistors</li>
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">Capacitors</li>
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">Microchips</li>
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">Total weight: 500 kilograms</li>
-																		<li class="text-custom-gray fw-bold mb-1 fs-6">Transport route: Tech City to Innovation Hub</li>
-																	  </ol>  
-
-															
-																</div>
-													
+                                <section class="">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="card mb-5">
+                                          <div class="card-header align-items-center p-5 border-0">
+                                            <div class="card-title align-items-start flex-column">
+                                              <div class="d-flex flex-column">
+                                              <!--begin::Info-->
+                                              <div class="d-flex flex-wrap">
+                                                <span class="d-flex align-items-center">
+                                                <h3 class="card-title text-primary fs-2 m-0"> Add New User </h3>
+                                                </span>
+                                          
+                                              </div>
+                                              <!--end::Info-->
+                                              </div>
+                                          
+                                            </div>
+                                  
+                                            </div>
+                                          <div class="card-body p-5">
+                                            
+                                                <div class="row">
+                                                  <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Name</label>
+                                                      <!--end::Label-->
+                                                      <!--begin::Input-->
+                                                      <input type="text" placeholder="Enter Full Name" name="text"  class="form-control form-control-lg">
+    
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                  </div>
+                                                  <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Email</label>
+                                                      <!--end::Label-->
+                                  
+                                                      <!--begin::Input-->
+                                                      <input type="email" placeholder="Enter Email address" name="email" class="form-control form-control-lg">
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                  </div>
+                                                  <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Phone number</label>
+                                                      <!--end::Label-->
+                                                      <input type="number" placeholder="0123456789" name="email" class="form-control form-control-lg">
+                                                      <!--begin::Input-->
+                                              
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                  </div>
+                                                  <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Role</label>
+                                                      <!--end::Label-->
+                                  
+                                                      <!--begin::Input-->
+                                                      <select
+                                                        class="form-select form-select-lg"
+                                                        data-control="select2"
+                                                        data-close-on-select="false"
+                                                        data-placeholder="Choose The Role">
+                                                        <option></option>
+                                                        <option value="1">Choose The Role
+                                                        <option value="2">Low Risk</option>
+                                                        <option value="3">Moderate Risk
+                                                        </option>
+                                                        <option value="4">High Risk</option>
+                                                        <option value="5">Very High Risk
+                                                        </option>
+                                                        <option value="6">Extreme Risk
+                                                        </option>
+                                                      </select>
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                  </div>
+												  <div class="col-lg-12 mb-5">
+													<!--begin::Input group-->
+											<div class="fv-row">
+											<div class="form-check form-switch form-check-custom form-check-success form-check-solid gap-3">
+												     <!--begin::Label-->
+													 <label class="form-label form-check-label" for="flexSwitchDefault">Active</label>
+													 <!--end::Label-->
+												<input class="form-check-input" type="checkbox" checked value="" id="flexSwitchDefault"/>
 										
-															</div>
-														</div>
-													</div>
-												</div>
-												 <!--End::Goods List-->
-
-												  	<!--Start::Shipping Info-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Shipping Info </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1"> BL No  </span>
-																		<span class="text-custom-gray fw-semibold fs-6"> 123497288168102874 </span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Voyage No</span>
-																		<span class="text-custom-gray fw-semibold fs-6">123497288168102874</span>
-																	</div>
-																</div>
-
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Vessel No</span>
-																		<span class="text-custom-gray fw-semibold fs-6">123497288168102874</span>
-																	</div>
-																</div>
-																<div class="col-12 col-md-12">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Dates</span>
-																		<span class="text-custom-gray fw-semibold fs-6">October 10, 2023</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-												 <!--End::Shipping Info-->
-
-											<!--Start::Shipper/Consignee Info-->
-												<div class="mb-5">
-													<div class="card shadow-none">
-														<div class="card-header bg-light p-3 h-50px min-h-50px">
-															<div class="card-title ">
-															  <div class="d-flex align-items-center me-2">
-																<!--begin::Symbol-->
-																<div class="symbol">
-																	<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																</div>
-																<div>
-																  <div class="text-dark fw-bold mb-1 fs-6"> Shipper/Consignee Info </div>
-																</div>
-																<!--end::Title-->
-															  </div>
-															<!--end::Title-->
-														  </div>
-														  </div>
-	
-														<div class="card-body p-5">
-															<div class="row g-5">
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1"> Names </span>
-																		<span class="text-custom-gray fw-semibold fs-6"> Amira Rahim </span>
-																	</div>
-																</div>
-													
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Email</span>
-																		<span class="text-custom-gray fw-semibold fs-6">debbie.baker@example.com</span>
-																	</div>
-																</div>
-
-																<div class="col-12 col-md-4">
-																	<div class="d-flex flex-column">
-																		<span class="text-custom-dark fs-7 mb-1">Phones</span>
-																		<span class="text-custom-gray fw-semibold fs-6">+966565948786</span>
-																	</div>
-																</div>
-															</div>
-														</div>
-													</div>
-												</div>
-											 <!--End::Shipper/Consignee Info-->
-
-											 		<!--Start::Valuation Basis-->
-													 <div class="mb-5">
-														<div class="card shadow-none">
-															<div class="card-header bg-light p-3 h-50px min-h-50px">
-																<div class="card-title ">
-																  <div class="d-flex align-items-center me-2">
-																	<!--begin::Symbol-->
-																	<div class="symbol">
-																		<i class="ki-solid ki-information-2 text-primary fs-3 mx-3"></i>
-																	</div>
-																	<div>
-																	  <div class="text-dark fw-bold mb-1 fs-6"> Valuation Basis </div>
-																	</div>
-																	<!--end::Title-->
-																  </div>
-																<!--end::Title-->
-															  </div>
-															  </div>
-		
-															<div class="card-body p-5">
-																<div class="row g-5">
-																	<div class="col-12 col-md-12">
-																		<div class="d-flex flex-column">
-																			<span class="text-custom-gray fw-semibold fs-6"> This cargo consists of a shipment of high-quality electronic components, including resistors, capacitors, and microchips, carefully packed to ensure safe delivery. The total weight is approximately 500 kilograms, and it is scheduled for transport from Tech City to Innovation Hub.</span>
-																		</div>
-																	</div>
-	
-																</div>
-															</div>
-														</div>
-													</div>
-												 <!--End::Valuation Basis-->
 											</div>
-										</div>
-
-
-
-										</div>
-									</div>
-
-
-								</section>
+											
+											</div>
+											</div>
+                                                </div>
+                                   
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                  
+                                  </section>
+                                  
 
 
 
