@@ -1,7 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
 :root {
-  --bs-primary: #2A5F8B;
-  --bs-text-primary: #2A5F8B;
+  --bs-primary: rgb(42, 95, 139);
+  --bs-success: rgb(42, 140, 82);
+  --bs-danger: rgb(140, 42, 48);
+  --bs-warning: rgba(140, 104, 42);
+  --bs-primary-light: rgba(234, 237, 244);
+  --bs-danger-light: rgba(244, 234, 235);
+  --bg-light-success: rgba(234, 244, 238);
+  --bg-light-warning: rgba(244, 240, 234);
+  --bs-text-danger: rgb(140, 42, 48);
+  --bs-text-primary: rgb(42, 95, 139);
+  --bs-text-warning: rgb(140, 104, 42);
+  --bs-text-success: rgb(42, 140, 82);
   --bs-custom-primary: #2A5F8B;
   --bs-text-secondary: #2A4A8C;
   --bs-custom-light: #F5F8FA;
@@ -16,11 +26,8 @@
   --bs-custom-border-color: #DAE7F2;
   --bs-border-color: #DAE7F2;
   --bs-table-striped: #F5F8FA;
-  --bs-success: #2A8C52;
-  --bs-danger: #8C2A30;
-  --bs-text-danger: #8C2A30;
   --bs-custom-placeholder: #8799A8;
-  --bs-btn-light: #EAEDF4 ;
+  --bs-btn-light: #EAEDF4;
 }
 
 .custom-btn-light {
@@ -93,6 +100,10 @@
 
 .bg-custom-table-light {
   background-color: var(--bs-table-light);
+}
+
+.bg-custom-gray {
+  background-color: var(--bs-custom-gray);
 }
 
 .text-stroke {
@@ -452,6 +463,47 @@ input[type=number]::-webkit-outer-spin-button {
 [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-icon .svg-icon,
 [data-kt-app-layout=light-sidebar] .app-sidebar .menu .menu-item .menu-link .menu-icon i {
   color: var(--bs-dark-active);
+}
+
+/*========================================
+/* Dashboard
+========================================*/
+.card.Dashboard .icon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.card.Dashboard .icon.First {
+  background-color: rgb(244, 234, 235);
+}
+.card.Dashboard .icon.Second {
+  background-color: rgba(229, 146, 86, 0.14);
+}
+.card.Dashboard .icon.Third {
+  background-color: rgba(1, 103, 151, 0.14);
+}
+.card.Dashboard .icon.Fourth {
+  background-color: rgba(0, 102, 94, 0.14);
+}
+.card.Dashboard .icon img {
+  width: 60%;
+}
+
+.asset-log .timeline .timeline-line {
+  right: -5px !important;
+  transform: translate(-50%) !important;
+}
+.asset-log .timeline .timeline-icon {
+  position: absolute;
+  top: 15px;
+  right: -25px;
 }
 
 /*========================================
