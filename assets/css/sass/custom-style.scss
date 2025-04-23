@@ -28,8 +28,6 @@
     --bs-custom-placeholder: #8799A8;
     --bs-btn-light: #EAEDF4;
 
-
-
 }
 
 .custom-btn-light{
@@ -276,6 +274,33 @@ ul {
     --bs-table-color-type: var(--bs-table-striped-color);
     --bs-table-bg-type: var(--bs-table-striped) !important;
 }
+
+.one-row {
+    flex-grow: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .two-row {
+    flex-grow: 2;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .three-row {
+    flex-grow: 3;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .HiddenDiv {
+    visibility: hidden;
+     }
 /*========================================
 /* Login Page
 ========================================*/
