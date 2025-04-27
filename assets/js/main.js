@@ -36,3 +36,10 @@ stepper.on("kt.stepper.previous", function (stepper) {
     stepper.goPrevious(); // go previous step
 });
 
+
+// Add New Form
+
+document.getElementById('AddNewForm').addEventListener('click', function () {
+    const HiddenNewForm = document.getElementById('HiddenNewForm');
+    HiddenNewForm.style.display = 'block'; // Show the first div
+  });

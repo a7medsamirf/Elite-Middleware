@@ -538,7 +538,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
   }
 }
-
 .asset-log {
   .timeline {
     .timeline-line {
@@ -555,8 +554,6 @@ input[type=number]::-webkit-outer-spin-button {
   }
 
 }
-
-
 
 /*========================================
 /* stepper
@@ -594,11 +591,6 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 
-
-
-
-
-
 .stepper.stepper-pills .stepper-item.current .stepper-icon .stepper-number {
     color: var(--bs-text-secondary);
     font-size: 0;
@@ -619,6 +611,40 @@ input[type=number]::-webkit-outer-spin-button {
 .stepper.stepper-pills .stepper-item.completed .stepper-line {
     border-top: 2px solid var(--bs-success) !important;
 }
+.stepper-card{
+    background-color: #F5F8FA;
+    .top-header {
+        position: relative;
+        padding: 30px 0;
+        &::after {
+            content: "";
+            width: 160px;
+            height: 155px;
+            display: block;
+            background: url(../../media/logos/logo-bg.svg) no-repeat center center;
+            background-size: cover;
+            position: absolute;
+            z-index: 1;
+            right: 25px;
+            left: inherit;
+            top: 20px;
+      }
+      }
+}
+
+
+ 
+ 
+  html[dir="rtl"] {
+   .top-header{
+     &::after {
+       left: 0px;
+       right: inherit;
+       top: 0px;
+    }
+   }
+  }
+
 /*========================================
 /* ChartV1
 ========================================*/
@@ -631,7 +657,6 @@ input[type=number]::-webkit-outer-spin-button {
 .ChartV2 {
     background-color: rgba(254, 58, 70, 0.08);
 }
-
 @media (min-width: 992px) {
     [data-kt-app-sidebar-minimize=on]:not([data-kt-app-sidebar-hoverable=true]) {
         .app-sidebar {
@@ -649,13 +674,10 @@ input[type=number]::-webkit-outer-spin-button {
         }
     }
 }
-
 .user-setting {
     border: 1px solid #DAE7F2;
     border-radius: 6px;
     padding: 4px;
     margin: 15px;
 }
-
-
 
