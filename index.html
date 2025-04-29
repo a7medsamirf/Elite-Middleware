@@ -185,10 +185,7 @@
                                                                                         </h3>
                                                                                     </div>
                                                                                 </div>
-                                                                                <div>
-                                                                                    <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
-                                                                                    <span class="fs-5 text-gray-600">Auto saving</span>
-                                                                                </div>
+
                                                                             </div>
 
                                                                             <div class="row">
@@ -365,9 +362,8 @@
                                                                                     </div>
                                                                                     <!--Start:: Your Data Saved successfully -->
                                                                                     <div class="text-success">
-                                                                                        <i class="ki-outline ki-check-circle text-success fw-bold fs-5"></i>
-
-                                                                                        <span class="fs-5 text-success fw-bold">Your Data Saved successfully</span>
+                                                                                        <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                                        <span class="fs-5 text-gray-600">Auto saving</span>
                                                                                     </div>
                                                                                 </div>
                                                                             </div>
@@ -861,7 +857,7 @@
                                                             <!--end::Add New Form-->
 
                                                             <!--begin::Actions-->
-                                                            <div class="card mb-5">
+                                                            <div id="Actions-card" class="card mb-5">
                                                                 <div class="p-5">
                                                                     <div class="d-flex justify-content-end">
                                                                         <!--begin::Wrapper-->
@@ -916,18 +912,22 @@
         <script src="assets/js/jQuery.js"></script>
         <script src="assets/js/bootstrap.js"></script>
         <script src="assets/js/main.js"></script>
+  
 
         <!--end::Custom Javascript-->
         <!--end::Javascript-->
-<script>
-        $('#SubmitButton').click(function() {
-        $('#Insurance-Brokerage').hide();
-        $('#successfully-completed').show();
-        });
-</script>
 
-
-
+        <script>
+            // Submit Button Click Event for Stepper 
+             $('#SubmitButton').click(function() {
+               var currentStep = $('.stepper-item.current');
+               currentStep.removeClass('current').addClass('completed');
+           $('#Actions-card').hide();
+           $('#Insurance-Brokerage').hide();
+           $('#successfully-completed').show();
+       });
+       </script>
+       
     </body>
     <!--end::Body-->
 </html>
