@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap");
 :root {
   --bs-primary: rgb(42, 95, 139);
-  --bs-success: rgb(42, 140, 82);
+  /*   --bs-success: rgb(42, 140, 82); */
   --bs-danger: rgb(140, 42, 48);
-  --bs-warning: rgba(140, 104, 42);
+  /*     --bs-warning: rgba(140, 104, 42); */
   --bs-primary-light: rgba(234, 237, 244);
   --bs-danger-light: rgba(244, 234, 235);
   --bg-light-success: rgba(234, 244, 238);
@@ -19,6 +19,7 @@
   --bs-gray-50: #757575;
   --bs-custom-gray: #506373;
   --bs-stroke: #DAE7F2;
+  --bs-light: #F5F8FA;
   --bs-custom-dark: #142533;
   --bs-gray-400: #DAE7F2;
   --bs-gray-900: #414141;
@@ -295,6 +296,22 @@ ul {
 
 .HiddenDiv {
   visibility: hidden;
+}
+
+/*========================================
+/* accordion
+========================================*/
+.accordion-button {
+  background-color: #F5F8FA !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: var(--bs-accordion-btn-icon-transform);
+  background-image: var(--bs-accordion-btn-icon) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  box-shadow: none !important;
 }
 
 /*========================================
@@ -640,4 +657,16 @@ html[dir=rtl] .top-header::after {
   border-radius: 6px;
   padding: 4px;
   margin: 15px;
+}
+
+/*========================================
+/* ChartV1
+========================================*/
+.Claims .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
 }/*# sourceMappingURL=custom-style.css.map */

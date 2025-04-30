@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Users</title>
+	<title>Elite Middleware / Edit Risk Classifications</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -75,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7"> Users List </li>
+								<li class="breadcrumb-item text-custom-gray fs-7"> Risk Classifications </li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -337,7 +337,7 @@
 								<div class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<a href="Risk-Classifications.html">
-										<span class="menu-link p-3">
+										<span class="menu-link rounded-0 active p-3">
 											<span class="menu-icon">
 												<i class="isax isax-task-square fs-2"></i>
 											</span>
@@ -372,7 +372,7 @@
 								<div class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<a href="Users.html">
-										<span class="menu-link rounded-0 active p-3">
+										<span class="menu-link p-3">
 											<span class="menu-icon">
 												<i class="isax isax-profile-2user fs-2"></i>
 											</span>
@@ -490,7 +490,7 @@
                                               <!--begin::Info-->
                                               <div class="d-flex flex-wrap">
                                                 <span class="d-flex align-items-center">
-                                                <h3 class="card-title text-primary fs-2 m-0"> Add New User </h3>
+                                                <h3 class="card-title text-primary fs-2 m-0"> Edit Risk Classifications </h3>
                                                 </span>
                                           
                                               </div>
@@ -501,90 +501,173 @@
                                   
                                             </div>
                                           <div class="card-body p-5">
-                                            
-                                                <div class="row">
-                                                  <div class="col-lg-6 mb-5">
+                                            <div class="row">
+                                                <div class="col-lg-6 mb-5">
                                                     <!--begin::Input group-->
                                                     <div class="fv-row">
-                                                      <!--begin::Label-->
-                                                      <label class="form-label">Name</label>
-                                                      <!--end::Label-->
-                                                      <!--begin::Input-->
-                                                      <input type="text" placeholder="Enter Full Name" name="text"  class="form-control form-control-lg">
-    
-                                                      <!--end::Input-->
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Parent</label>
+                                                        <!--end::Label-->
+
+                                                        <!--begin::Input-->
+                                                        <select
+                                                            class="form-select form-select-lg"
+                                                            data-control="select2"
+                                                            data-close-on-select="false"
+                                                            data-placeholder="Select Parent"
+                                                            multiple="multiple"
+                                                        >
+                                                            <option> </option>
+                                                            <option value="1"> Parent 1 </option>
+                                                            <option value="2">  Parent 2 </option>
+                                                            <option value="3"> Parent 3 </option>
+                                                            <option value="4">  Parent 4 </option>
+                                                            <option value="5">  Parent 5 </option>
+                                                            <option value="6"> Parent 6 </option>
+                                                        </select>
+                                                        <!--end::Input-->
                                                     </div>
                                                     <!--end::Input group-->
-                                                  </div>
-                                                  <div class="col-lg-6 mb-5">
+                                                </div>
+                                                <div class="col-lg-6 mb-5">
                                                     <!--begin::Input group-->
                                                     <div class="fv-row">
-                                                      <!--begin::Label-->
-                                                      <label class="form-label">Email</label>
-                                                      <!--end::Label-->
-                                  
-                                                      <!--begin::Input-->
-                                                      <input type="email" placeholder="Enter Email address" name="email" class="form-control form-control-lg">
-                                                      <!--end::Input-->
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Risk level</label>
+                                                        <!--end::Label-->
+
+                                                        <!--begin::Input-->
+                                                        <select
+                                                            class="form-select form-select-lg"
+                                                            data-control="select2"
+                                                            data-close-on-select="false"
+                                                            data-placeholder="Select Risk Level"
+                                                        >
+                                                            <option> </option>
+                                                            <option value="1"> Very Low Risk </option>
+                                                            <option value="2"> Low Risk  </option>
+                                                            <option value="3"> Moderate Risk </option>
+                                                            <option value="4"> High Risk  </option>
+                                                            <option value="5"> Very High Risk </option>
+                                                            <option value="6"> Extreme Risk </option>
+                                                        </select>
+                                                        <!--end::Input-->
                                                     </div>
                                                     <!--end::Input group-->
-                                                  </div>
-                                                  <div class="col-lg-6 mb-5">
+                                                </div>
+                                                <div class="col-lg-6 mb-5">
                                                     <!--begin::Input group-->
                                                     <div class="fv-row">
-                                                      <!--begin::Label-->
-                                                      <label class="form-label">Phone number</label>
-                                                      <!--end::Label-->
-                                                      <input type="number" placeholder="0123456789" name="email" class="form-control form-control-lg">
-                                                      <!--begin::Input-->
-                                              
-                                                      <!--end::Input-->
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Sub Parent</label>
+                                                        <!--end::Label-->
+
+                                                        <!--begin::Input-->
+                                                        <select
+                                                            class="form-select form-select-lg"
+                                                            data-control="select2"
+                                                            data-close-on-select="false"
+                                                            data-placeholder="Select Sub Parent"
+                                                            multiple="multiple"
+                                                        >
+                                                            <optgroup label="Parent 1">
+                                                                <option value="1"> Sub Parent 1 </option>
+                                                                <option value="2"> Sub Parent 2  </option>
+                                                                <option value="3">  Sub Parent 3 </option>
+                                                            </optgroup>
+                                                            <optgroup label="Parent 2">
+                                                                <option value="1"> Sub Parent 1 </option>
+                                                                <option value="2">  Sub Parent 2  </option>
+                                                            </optgroup>
+                                                        </select>
+                                                        <!--end::Input-->
                                                     </div>
                                                     <!--end::Input group-->
-                                                  </div>
-                                                  <div class="col-lg-6 mb-5">
+                                                </div>
+                                                <div class="col-lg-6 mb-5">
                                                     <!--begin::Input group-->
                                                     <div class="fv-row">
-                                                      <!--begin::Label-->
-                                                      <label class="form-label">Role</label>
-                                                      <!--end::Label-->
-                                  
-                                                      <!--begin::Input-->
-                                                      <select
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Risk level</label>
+                                                        <!--end::Label-->
+
+                                                        <!--begin::Input-->
+                                                        <select
+                                                            class="form-select form-select-lg"
+                                                            data-control="select2"
+                                                            data-close-on-select="false"
+                                                            data-placeholder="Select Risk Level"
+                                                        >
+                                                            <option> </option>
+                                                            <option value="1"> Very Low Risk </option>
+                                                            <option value="2"> Low Risk </option>
+                                                            <option value="3"> Moderate Risk </option>
+                                                            <option value="4"> High Risk </option>
+                                                            <option value="5"> Very High Risk </option>
+                                                            <option value="6"> Extreme Risk</option>
+                                                        </select>
+                                                        <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                </div>
+                                                <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Item</label>
+                                                        <!--end::Label-->
+
+                                                        <!--begin::Input-->
+                                                        <select
+                                                            class="form-select form-select-lg"
+                                                            data-control="select2"
+                                                            data-close-on-select="false"
+                                                            data-placeholder="Select Item"
+                                                            multiple="multiple"
+                                                        >
+                                                            <optgroup label="Sub Parent 1">
+                                                                <option value="1">  Item 1 </option>
+                                                                <option value="2"> Item 2 </option>
+                                                                <option value="3">  Item 3 </option>
+                                                            </optgroup>
+                                                            <optgroup label="Sub Parent 2">
+                                                                <option value="1">  Item 1 </option>
+                                                                <option value="2"> Item 2 </option>
+                                                            </optgroup>
+                                                        </select>
+                                                        <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
+                                                </div>
+                                                <div class="col-lg-6 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                        <!--begin::Label-->
+                                                        <label class="form-label">Risk level</label>
+                                                        <!--end::Label-->
+
+                                                <!--begin::Input-->
+                                                <select 
                                                         class="form-select form-select-lg"
                                                         data-control="select2"
                                                         data-close-on-select="false"
-                                                        data-placeholder="Choose The Role">
-                                                        <option></option>
-                                                        <option value="1">Choose The Role
-                                                        <option value="2">Low Risk</option>
-                                                        <option value="3">Moderate Risk
-                                                        </option>
-                                                        <option value="4">High Risk</option>
-                                                        <option value="5">Very High Risk
-                                                        </option>
-                                                        <option value="6">Extreme Risk
-                                                        </option>
-                                                      </select>
-                                                      <!--end::Input-->
+                                                        data-placeholder="Select Risk Level"
+                                                        >
+                                                    <option> </option>
+                                                    <option value="1"> Very Low Risk </option>
+                                                    <option value="2">	Low Risk </option>
+                                                    <option value="3">	Moderate Risk </option>
+                                                    <option value="4"> High Risk </option>
+                                                    <option value="5"> Very High Risk </option>
+                                                    <option value="6"> Extreme Risk </option>
+                                                </select>
+                                                <!--end::Input-->
+
                                                     </div>
                                                     <!--end::Input group-->
-                                                  </div>
-												  <div class="col-lg-12 mb-5">
-													<!--begin::Input group-->
-											<div class="fv-row">
-											<div class="form-check form-switch form-check-custom form-check-success form-check-solid gap-3">
-												     <!--begin::Label-->
-													 <label class="form-label form-check-label" for="flexSwitchDefault">Active</label>
-													 <!--end::Label-->
-												<input class="form-check-input" type="checkbox" checked value="" id="flexSwitchDefault"/>
-										
-											</div>
-											
-											</div>
-											</div>
                                                 </div>
-                                   
+                                            </div>
+                                      
                                           </div>
                                         </div>
                                       </div>
