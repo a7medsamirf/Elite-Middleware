@@ -43,4 +43,3 @@ document.getElementById('AddNewForm').addEventListener('click', function () {
     const HiddenNewForm = document.getElementById('HiddenNewForm');
     HiddenNewForm.style.display = 'block'; // Show the first div
   });
-

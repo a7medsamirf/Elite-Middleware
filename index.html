@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Dashboard</title>
+	<title>Elite Middleware /  KYC</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -61,14 +61,22 @@
 						<div class="page-title d-flex flex-column justify-content-center flex-wrap mx-5 mb-5 mb-lg-0">
 
 							<!--begin::Breadcrumb-->
-							<ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
+                            <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 my-0 pt-1">
 								<!--begin::Item-->
 								<li class="breadcrumb-item">
 									<a href="" class="text-custom-gray fs-6">Dashboard</a>
 								</li>
 								<!--end::Item-->
-						
-						
+								<!--begin::Item-->
+								<li class="breadcrumb-item">
+									<span class="">
+										<i class="ki-solid ki-double-right text-custom-gray fs-6 lh-lg"></i>
+									</span>
+								</li>
+								<!--end::Item-->
+								<!--begin::Item-->
+								<li class="breadcrumb-item text-custom-gray fs-7">KYC</li>
+								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
 						</div>
@@ -248,22 +256,6 @@
 							</i>
 						</div>
 
-						<!-- 		<div id="kt_app_sidebar_toggle"
-							class="app-sidebar-toggle btn btn-icon btn-md border-0 position-absolute top-50 start-100 translate-middle rotate"
-							data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
-							data-kt-toggle-name="app-sidebar-minimize">
-							<i class="ki-duotone ki-right-left fs-1 ">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-                                       </i>
-						 	<i class="ki-duotone ki-black-left-line fs-1 rotate-180">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i> 
-						</div> -->
-						<!--end::Sidebar toggle-->
-
 					</div>
 
 					<!--end::Logo-->
@@ -278,6 +270,7 @@
 							data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
 							data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
 							data-kt-scroll-save-state="true">
+
 							<!--begin::Menu-->
 
 							<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
@@ -306,112 +299,54 @@
 								</div>
 								<div class="menu-item menu-accordion">
 									<!--begin:Menu link-->
-									<a href="Insurance-Requests.html">
+									<a href="Create-Request.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+												<i class="isax isax-note-favorite fs-2"></i>
+											</span>
+											<span class="menu-title">Create Request</span>
+										</span>
+									</a>
+								</div>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Invoices.html">
+										<span class="menu-link p-3">
+											<span class="menu-icon">
+                                                <i class="isax isax-document-text fs-2"></i>
+											</span>
+											<span class="menu-title">Invoices</span>
+										</span>
+									</a>
+								</div>
+								<div class="menu-item menu-accordion">
+									<!--begin:Menu link-->
+									<a href="Polices.html">
 										<span class="menu-link p-3">
 											<span class="menu-icon">
 												<i class="isax isax-document-download fs-2"></i>
 											</span>
-											<span class="menu-title">Insurance Requests</span>
+											<span class="menu-title">Polices</span>
 										</span>
 									</a>
 								</div>
 								<div class="menu-item menu-accordion">
 									<!--begin:Menu link-->
-									<a href="rating-table.html">
+									<a href="Quotation-Request.html">
 										<span class="menu-link p-3">
 											<span class="menu-icon">
-												<i class="isax isax-layer fs-2"></i>
+                                                <i class="isax isax-task-square fs-2"></i>
 											</span>
-											<span class="menu-title">rating table</span>
+											<span class="menu-title">Quotation Request</span>
 										</span>
 									</a>
 								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Risk-Classifications.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-task-square fs-2"></i>
-											</span>
-											<span class="menu-title">Risk Classifications</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Claims.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-document-text fs-2"></i>
-											</span>
-											<span class="menu-title">Claims</span>
-										</span>
-									</a>
-								</div>
-								<!--begin::Separator-->
-								<div class="separator separator my-5 mx-3 border-1"></div>
-								<!--end::Separator-->
-								<!--begin:Menu content-->
-								<div class="menu-item">
-									<!--begin:Menu content-->
-									<div class="menu-content">
-										<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
-									</div>
-									<!--end:Menu content-->
-								</div>
-								<!--End:Menu content-->
 
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Users.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-profile-2user fs-2"></i>
-											</span>
-											<span class="menu-title">Users</span>
-										</span>
-									</a>
-								</div>
-						
-
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Logs.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-note-21 fs-2"></i>
-											</span>
-											<span class="menu-title">Logs</span>
-										</span>
-									</a>
-								</div>
-							
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Roles.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-check fs-2"></i>
-											</span>
-											<span class="menu-title">Roles And Permissions</span>
-										</span>
-									</a>
-								</div>
-							<!-- 	<div class="menu-item menu-accordion">
-									<a href="Business-Partner.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-								
-												<i class="ki-outline ki-setting-2 fs-2"></i>
-											</span>
-											<span class="menu-title">Business Partner Incoterm</span>
-										</span>
-									</a>
-								</div> -->
 
 							</div>
 
 							<!--end::Menu-->
+
 						</div>
 						<!--end::Scroll wrapper-->
 					</div>
@@ -435,267 +370,1172 @@
 								<section class="">
 									<div class="row">
 										<div class="col-lg-12">
-                                            <div class="card border-0 rounded-0 shadow-none">
-                                                <!--begin::Header-->
-                                                <div class="card-header border-0 pt-5">
-                                                    <div class="card-title align-items-start flex-column">
-                                                        <span class="d-flex align-items-center text-dark title-icon">
-															<span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
-																<i class="isax isax-category5 fs-4 text-primary">
-																</i>
-															</span>
-                                                        
-                                                            <h3 class="card-title fw-bold fs-3 m-0"> Dashboard </h3>
-                                                          </span>
+                                 <!--begin::Stepper-->
+                                   <div class="stepper stepper-pills V2" id="kt_stepper_example_basic">
+                                    <div class="card mb-5">
+                                        <div class="card-body p-5">
+
+                                            <div class="d-flex align-items-center justify-content-center">
+                                                <!--begin::Nav-->
+                                                <div class="stepper-nav flex-wrap">
+                                                    <!--begin::Step 1-->
+                                                    <div class="stepper-item mx-5 my-4 current d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">1</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                General information
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
                                                     </div>
-													<div class="card-toolbar ">	
-														
-																<div class="d-flex align-items-center gap-2 border border-2 rounded p-2 px-5">
-																	<div>
-																		<i class="ki-duotone ki-calendar text-custom-gray fs-4">
-																			<span class="path1"></span>
-																			<span class="path2"></span>
-																		  </i>
-																	</div>
-																	  <div>
-																		<span class="fw-semibold fs-7 text-custom-gray">March 22, 2024 - October 22, 2024 </span> 
-																
-																	  </div>
-																  </div>
-													</div>
+                                                    <!--end::Step 1-->
+                                                    <!--begin::Step 2-->
+                                                    <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">2</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                National Address
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 2-->
+
+                                                    <!--begin::Step 3-->
+                                                    <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">3</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                Bank Account Details
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 3-->
+
+                                                    <!--begin::Step 4-->
+                                                    <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">4</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                Contact person
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 4-->
+
+                                                       <!--begin::Step 5-->
+                                                       <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">5</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                Partners information 
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 5-->
+
+                                                        <!--begin::Step 6-->
+                                                        <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">6</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                Managers and Board of Directors
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 6-->
+
+                                                    <!--begin::Step 7-->
+                                                    <div class="stepper-item mx-5 my-4 d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-35px h-35px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number fs-6 p-3">7</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fw-normal fs-6">
+                                                                Documents 
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 7-->
+
                                                 </div>
-                                                <!--end::Header-->
-                                                <!--begin::Body-->
-                                                <div class="card-body py-3">
-                                                    <div class="row">
-                                                        <div class="col-12 col-md-3 mb-5">
-                                                            <div class="card Dashboard h-100">
-                                                                <!--begin::Header-->
-                                                                <div class="card-header border-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <div class="card-title d-flex flex-column">
-                                                                    <div class="d-flex align-items-center">
-                                                                      <div class="icon bg-light-danger flex-shrink-0">
-                                                                        <i class="isax isax-document-text5 text-danger fs-3"></i>
-                                                                
-                                                                      </div>
-                                                                      <div class="flex-grow-1 ms-3">Total Requests </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <!--end::Title-->
-                                                                </div>
-                                                                <!--end::Header-->
-                                                                <!--begin::Card body-->
-                                                                <div class="card-body py-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <span class="fs-2hx fw-bold text-custom-dark mb-2">853 <small class="text-gray-400 fs-5 fw-semibold">Request</small></span>
-                                                                  <!--end::Title-->
-                                                           
-                                                                </div>
-                                                                <!--end::Card body-->
-                                                                <div class="card-footer border-0 p-5">
-                                                                   <div class="d-flex align-items-center ">
-																		<i class="isax isax-trend-up text-success fs-5 "></i>
-																		<span class="mx-2 text-gray-500">	10% increase in the past 30 days </span>
-
-																   </div>
-                                                                </div>
-                                                              </div>
-                                                        </div>
-														<div class="col-12 col-md-3 mb-5">
-                                                            <div class="card Dashboard h-100">
-                                                                <!--begin::Header-->
-                                                                <div class="card-header border-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <div class="card-title d-flex flex-column">
-                                                                    <div class="d-flex align-items-center">
-                                                                      <div class="icon bg-light-primary flex-shrink-0">
-                                                                        <i class="isax isax-document-text5 text-primary fs-3"></i>
-                                                                
-                                                                      </div>
-                                                                      <div class="flex-grow-1 ms-3">Active Quotes </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <!--end::Title-->
-                                                                </div>
-                                                                <!--end::Header-->
-                                                                <!--begin::Card body-->
-                                                                <div class="card-body py-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <span class="fs-2hx fw-bold text-custom-dark mb-2">200 <small class="text-gray-400 fs-5 fw-semibold">Quotes</small></span>
-                                                                  <!--end::Title-->
-                                                           
-                                                                </div>
-                                                                <!--end::Card body-->
-                                                                <div class="card-footer border-0 p-5">
-                                                                   <div class="d-flex align-items-center ">
-																		<i class="isax isax-trend-up text-success fs-5 "></i>
-																		<span class="mx-2 text-gray-500">	10% increase in the past 30 days </span>
-
-																   </div>
-                                                                </div>
-                                                              </div>
-
-                                                        </div>
-														<div class="col-12 col-md-3 mb-5">
-                                                            <div class="card Dashboard h-100">
-                                                                <!--begin::Header-->
-                                                                <div class="card-header border-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <div class="card-title d-flex flex-column">
-                                                                    <div class="d-flex align-items-center">
-                                                                      <div class="icon bg-light-success flex-shrink-0">
-                                                                        <i class="isax isax-document-text5 text-success fs-3"></i>
-                                                                
-                                                                      </div>
-                                                                      <div class="flex-grow-1 ms-3"> Completed Deals </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <!--end::Title-->
-                                                                </div>
-                                                                <!--end::Header-->
-                                                                <!--begin::Card body-->
-                                                                <div class="card-body py-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <span class="fs-2hx fw-bold text-custom-dark mb-2">600 <small class="text-gray-400 fs-5 fw-semibold">Deals</small></span>
-                                                                  <!--end::Title-->
-                                                           
-                                                                </div>
-                                                                <!--end::Card body-->
-                                                                <div class="card-footer border-0 p-5">
-                                                                   <div class="d-flex align-items-center ">
-																		<i class="isax isax-trend-down text-danger fs-5 "></i>
-																		<span class="mx-2 text-gray-500">	10% increase in the past 30 days </span>
-
-																   </div>
-                                                                </div>
-                                                              </div>
-
-                                                        </div>
-														<div class="col-12 col-md-3 mb-5">
-                                                            <div class="card Dashboard h-100">
-                                                                <!--begin::Header-->
-                                                                <div class="card-header border-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <div class="card-title d-flex flex-column">
-                                                                    <div class="d-flex align-items-center">
-                                                                      <div class="icon bg-light-warning flex-shrink-0">
-                                                                        <i class="isax isax-document-text5 text-warning fs-3"></i>
-                                                                
-                                                                      </div>
-                                                                      <div class="flex-grow-1 ms-3"> Conversion Rate </div>
-                                                                    </div>
-                                                                  </div>
-                                                                  <!--end::Title-->
-                                                                </div>
-                                                                <!--end::Header-->
-                                                                <!--begin::Card body-->
-                                                                <div class="card-body py-0 p-5">
-                                                                  <!--begin::Title-->
-                                                                  <span class="fs-2hx fw-bold text-custom-dark mb-2">20<small class="fs-5 fw-semibold">%</small></span>
-                                                                  <!--end::Title-->
-                                                           
-                                                                </div>
-                                                                <!--end::Card body-->
-                                                                <div class="card-footer border-0 p-5">
-                                                                   <div class="d-flex align-items-center ">
-																		<i class="isax isax-trend-up text-success fs-5 "></i>
-																		<span class="mx-2 text-gray-500">	10% increase in the past 30 days</span>
-
-																   </div>
-                                                                </div>
-                                                              </div>
-
-                                                        </div>
-														<div class="col-lg-8 mb-5">
-															<div class="card h-100">
-																<!--begin::Header-->
-																<div class="card-header border-0 pt-5">
-																  <h3 class="card-title align-items-start flex-column">
-																	<span class="card-label fw-bold fs-3 mb-1">Total Insurance Requests	</span>
-																  </h3>
-																</div>
-																<!--end::Header-->
-																<div class="card-body p-5">
-																<div id="kt_charts_widget_01" class="w-100" style="height: 300px"></div>
-															</div>
-															</div>
-															
-														</div>
-														<div class="col-lg-4 mb-5">
-															<div class="card h-100">
-																<!--begin::Header-->
-																<div class="card-header border-0 pt-5">
-																  <h3 class="card-title align-items-start flex-column">
-																  <span class="card-label fw-bold fs-3 mb-1">Total Users	</span>
-																  </h3>
-																</div>
-																<!--end::Header-->
-																<div class="card-body p-5">
-																  <div class="d-flex align-items-center justify-content-between">
-																  <div class="position-relative">
-																	<div id="kt_charts_widget_03"></div>
-																	<div class="position-absolute top-50 start-50 translate-middle text-center">
-																	  <h2 class="fs-1 fw-bolder mb-1">1200</h2>
-																	  <p class="text-gray-600 fs-6 mb-0">Users</p>
-																	</div>
-																	<!-- Legend -->
-																  </div>
-																  <div class="d-flex flex-column gap-3 min-w-100px max-w-150px position-relative">
-																	<!-- Active Users -->
-																	<div class="mb-4">
-																	  <div class="d-flex align-items-center gap-2"> 
-																		<div class="rounded-circle bg-success" style="width: 8px; height: 8px;"></div>
-																		<span class="fw-semibold fs-8 text-success">Active</span>
-																	  </div>
-																	  <div class="">
-																		<div class="my-2">	<span class="fw-bold">80%</span></div>
-																		<div class="h-3px w-100 bg-light rounded">
-																		  <div class="bg-success rounded h-3px" role="progressbar" style="width: 80%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-																		</div>
-																
-																	  </div>
-																	</div>
-																	<!-- Inactive Users -->
-																	<div class="mb-4">
-																	  <div class="d-flex align-items-center gap-2"> 
-																		<div class="rounded-circle bg-custom-gray" style="width: 8px; height: 8px;"></div>
-																		<span class="fw-semibold fs-8 text-custom-gray">Inactive</span>
-																	  </div>
-																	  <div class="">
-																		<div class="my-2">	<span class="fw-bold">20%</span></div>
-																		<div class="h-3px w-100 bg-light rounded">
-																		  <div class="bg-custom-gray rounded h-3px" role="progressbar" style="width: 20%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-																		</div>
-																
-																	  </div>
-																	</div>
-																  </div>
-															  
-																  </div>
-															  
-															  </div>
-															  </div>
-															</div>
-												<div class="col-lg-12 mb-5">
-													<div class="card h-100">
-														<!--begin::Header-->
-														<div class="card-header border-0 pt-5">
-														  <h3 class="card-title align-items-start flex-column">
-															<span class="card-label fw-bold fs-3 mb-1">Total Insurance Requests</span>
-														  </h3>
-														</div>
-														<!--end::Header-->
-														<div class="card-body p-5">
-															<div id="kt_charts_widget_02" class="w-100" style="height: 500px"></div>
-														</div>
-													</div>
-												</div>
-                                             </div>
-												
-                                                </div>
-                                           
+                                                <!--end::Nav-->
                                             </div>
+                                        </div>
+                                    </div>
+
+                                    <!--begin::Form-->
+                                    <form class="form" novalidate="novalidate">
+                                        <div class="card mb-5">
+                                            <div class="card-body p-5">
+                                                <!--begin::Group-->
+                                                <div class="mb-5">
+                                                    <!--begin::Step 1-->
+                                                    <div class="flex-column current" data-kt-stepper-element="content">
+                                                    <div>
+                                                        <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                            <div class="card-title align-items-start flex-column">
+                                                                <div class="d-flex flex-column">
+                                                                    <!--begin::Info-->
+                                                                    <div class="d-flex flex-wrap">
+                                                                        <span class="d-flex align-items-center text-dark title-icon">
+                                                                            <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                            </span>
+
+                                                                            <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                General information
+                                                                            </h3>
+                                                                        </span>
+                                                                    </div>
+                                                                    <!--end::Info-->
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="">
+                                                                <!--Start:: Auto saving -->
+                                                                <div >
+                                                                    <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                    <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                </div>
+                                                            
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <!--begin::Col-->
+                                                            <div class="col-lg-4 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Legal Name </label>
+                                                                        <input type="text" class="form-control " placeholder="Enter Legal Name "/>
+                                                                    </div>
+                                                            </div>
+                                                               <!--end::Col-->
+                                                            <!--begin::Col-->
+                                                            <div class="col-lg-4 mb-5">
+                                                                <div class="fv-row">
+                                                                    <label class="form-label">Commercial registration No </label>
+                                                                    <input type="text" class="form-control " placeholder="Enter Commercial registration No"/>
+                                                                </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                       	<!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">License No </label>
+                                                                <input type="text" class="form-control " placeholder="Enter License No"/>
+                                                            </div>
+                                                       </div>
+                                                          <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">MISA Certificate No. </label>
+                                                                <input type="text" class="form-control " placeholder="Enter MISA Certificate No."/>
+                                                            </div>
+                                                       </div>
+                                                          <!--end::Col-->
+                                                       	<!--begin::Col-->
+                                                            <div class="col-lg-4 mb-5">
+                                                                <div class="fv-row">
+                                                                    <label class="form-label">Source of fund </label>
+                                                                    <input type="text" class="form-control " placeholder="Enter Source of fund"/>
+                                                                </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">MISA Certificate No. </label>
+                                                                <input type="text" class="form-control " placeholder="Enter MISA Certificate No."/>
+                                                            </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">Source of fund</label>
+                                                                <input type="text" class="form-control " placeholder="Enter Source of fund"/>
+                                                            </div>
+                                                       </div>
+                                                          <!--end::Col-->
+                                                       		<!--begin::Col-->
+                                                            <div class="col-lg-4 mb-5">
+                                                                <div class="fv-row">
+                                                                    <label class="form-label">Business activity </label>
+                                                                    <input type="text" class="form-control " placeholder="Enter Business activity"/>
+                                                                </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                        		<!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">VAT Number </label>
+                                                                <input type="text" class="form-control " placeholder="Enter VAT Number"/>
+                                                            </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                        		<!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">Trading Name </label>
+                                                                <input type="text" class="form-control " placeholder="Enter Trading Name"/>
+                                                            </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                    	<!--begin::Col-->
+                                                        <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">No of employees </label>
+                                                                <input type="text" class="form-control " placeholder="Enter No of employees"/>
+                                                            </div>
+                                                        </div>
+                                                           <!--end::Col-->
+                                                   			<!--begin::Col-->
+                                                        <div class="col-md-4 mb-5">
+                                                            <div class="fv-row">
+                                                            <label class="form-label required ">Expiry date</label>
+                                                            <div class="position-relative d-flex align-items-center">
+                                                                <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                <input class="form-control kt_datepicker" placeholder="Enter Expiry date" name="due_date" id="kt-Expiry-date" />
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                            <div class="col-lg-4 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">Annual income</label>
+                                                                <input type="text" class="form-control " placeholder="Enter Annual income"/>
+                                                            </div>
+                                                        </div>
+                                                         <!--end::Col-->
+                                                               <!--begin::Col-->
+                                                               <div class="col-lg-8 mb-5">
+                                                                <div class="fv-row">
+                                                                    <label class="form-label">Is your company a related party to the Insurance Company?</label>
+                                                                    <div class="row">
+                                                                        <div class="col-lg-6">
+                                                                            <div class="form-check form-check-custom form-check-solid form-check-sm form-control px-5">
+                                                                                <input class="form-check-input " type="radio" name="radio" value="" id="flexRadioDefault1"/>
+                                                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                                                Yes
+                                                                                </label>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="col-lg-6">
+                                                                            <div class="form-check form-check-custom form-check-solid form-check-sm form-control px-5">
+                                                                            <input class="form-check-input" type="radio" name="radio"  value="" id="flexRadioDefault"/>
+                                                                            <label class="form-check-label" for="flexRadioDefault">
+                                                                             No
+                                                                            </label>
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                             <!--end::Col-->
+                                                        </div>
+                                                    </div>
+
+                                                    </div>
+                                                    <!--End::Step 1-->
+
+                                                    <!--begin::Step 2-->
+                                                    <div class="flex-column " data-kt-stepper-element="content">
+                                                        <div>
+                                                            <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                <div class="card-title align-items-start flex-column">
+                                                                    <div class="d-flex flex-column">
+                                                                        <!--begin::Info-->
+                                                                        <div class="d-flex flex-wrap">
+                                                                            <span class="d-flex align-items-center text-dark title-icon">
+                                                                                <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                    <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                </span>
+
+                                                                                <h3 class="card-title fw-bold fs-3 m-0">
+                                                                               National Address
+                                                                                </h3>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!--end::Info-->
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="">
+                                                                    <!--Start:: Auto saving -->
+                                                                    <div >
+                                                                        <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                        <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                    </div>
+                                                                
+                                                                </div>
+                                                            </div>
+                                                            <div class="row">
+                                                                <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Zip code </label>
+                                                                            <input type="text" class="form-control " placeholder="Enter Legal Name "/>
+                                                                        </div>
+                                                                </div>
+                                                                   <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">City</label>
+                                                                        <input type="text" class="form-control " placeholder="Enter City "/>
+                                                                    </div>
+                                                            </div>
+                                                               <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                   <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">District</label>
+                                                                            <input type="text" class="form-control " placeholder="Enter District "/>
+                                                                        </div>
+                                                                </div>
+                                                                    <!--end::Col-->
+                                                                <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Street</label>
+                                                                        <input type="text" class="form-control " placeholder="Enter Street Name "/>
+                                                                    </div>
+                                                            </div>
+                                                                <!--end::Col-->
+                                                                     <!--begin::Col-->
+                                                                     <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Building No</label>
+                                                                            <input type="text" class="form-control " placeholder="Enter Building No "/>
+                                                                        </div>
+                                                                </div>
+                                                                    <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Unit No</label>
+                                                                            <input type="text" class="form-control " placeholder="Enter Unit No "/>
+                                                                        </div>
+                                                                </div>
+                                                                    <!--end::Col-->
+                                                                               <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Additional No</label>
+                                                                        <input type="text" class="form-control " placeholder="Enter Additional No "/>
+                                                                    </div>
+                                                            </div>
+                                                                <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Region</label>
+                                                                        <input type="text" class="form-control " placeholder="Enter Region "/>
+                                                                    </div>
+                                                            </div>
+                                                                <!--end::Col-->
+                                                        </div>
+
+                                                        </div>
+                                                    </div>
+                                                        <!--End::Step 2-->
+                                                        <!--begin::Step 3-->
+                                                        <div class="flex-column " data-kt-stepper-element="content">
+                                                            <div>
+                                                                <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                    <div class="card-title align-items-start flex-column">
+                                                                        <div class="d-flex flex-column">
+                                                                            <!--begin::Info-->
+                                                                            <div class="d-flex flex-wrap">
+                                                                                <span class="d-flex align-items-center text-dark title-icon">
+                                                                                    <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                        <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                    </span>
+
+                                                                                    <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                        Bank Account Details
+                                                                                    </h3>
+                                                                                </span>
+                                                                            </div>
+                                                                            <!--end::Info-->
+                                                                        </div>
+                                                                    </div>
+
+                                                                    <div class="">
+                                                                        <!--Start:: Auto saving -->
+                                                                        <div >
+                                                                            <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                            <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                        </div>
+                                                                    
+                                                                    </div>
+                                                                </div>
+                                                                <div class="row">
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">Account Name </label>
+                                                                                <input type="text" class="form-control " placeholder="Enter Account Name "/>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                            <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Bank Name</label>
+                                                                            <input type="text" class="form-control " placeholder="Enter Bank Name "/>
+                                                                        </div>
+                                                                </div>
+                                                                <!--end::Col-->
+                                                                            <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">IBAN No</label>
+                                                                                <input type="text" class="form-control " placeholder="Enter IBAN No "/>
+                                                                            </div>
+                                                                    </div>
+                                                                        <!--end::Col-->
+
+                                                            </div>
+
+                                                            </div>
+                                                        </div>
+                                                            <!--End::Step 3-->
+                                                                            
+                                                            <!--begin::Step 4-->
+                                                            <div class="flex-column " data-kt-stepper-element="content">
+                                                                <div>
+                                                                    <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                        <div class="card-title align-items-start flex-column">
+                                                                            <div class="d-flex flex-column">
+                                                                                <!--begin::Info-->
+                                                                                <div class="d-flex flex-wrap">
+                                                                                    <span class="d-flex align-items-center text-dark title-icon">
+                                                                                        <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                            <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                        </span>
+
+                                                                                        <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                            Contact person
+                                                                                        </h3>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <!--end::Info-->
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="">
+                                                                            <!--Start:: Auto saving -->
+                                                                            <div >
+                                                                                <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                                <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                            </div>
+                                                                        
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">Name </label>
+                                                                                    <input type="text" class="form-control " placeholder="Enter Name "/>
+                                                                                </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                                <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">ID No</label> 
+                                                                                <input type="text" class="form-control " placeholder="Enter ID No"/>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-md-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                        <label class="form-label required ">Date of Expiry</label>
+                                                                        <div class="position-relative d-flex align-items-center">
+                                                                            <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                            <input class="form-control kt_datepicker" placeholder="Enter Date of Expiry" name="due_date" id="kt-Date-of-Expiry" />
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Contact Phone</label> 
+                                                                            <input type="number" class="form-control " placeholder="Enter Contact Phone"/>
+                                                                        </div>
+                                                                </div>
+                                                                    <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-md-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                            <label class="form-label required ">Date of Birth</label>
+                                                                            <div class="position-relative d-flex align-items-center">
+                                                                                <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                                <input class="form-control kt_datepicker" placeholder="Enter Date of Birth" name="due_date" id="kt-Date-of-Birth" />
+                                                                            </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-md-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                        <label class="form-label required ">Date of Expiry</label>
+                                                                        <div class="position-relative d-flex align-items-center">
+                                                                            <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                            <input class="form-control kt_datepicker" placeholder="Enter Date of Expiry" name="due_date" id="kt-Date-of-Expiry2" />
+                                                                        </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Relation</label> 
+                                                                        <input type="number" class="form-control " placeholder="Enter Relation"/>
+                                                                    </div>
+                                                            </div>
+                                                                <!--end::Col-->
+                                                                            <!--begin::Col-->
+                                                                            <div class="col-lg-6 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">Email Address</label> 
+                                                                                    <input type="email" class="form-control " placeholder="Enter Email Address"/>
+                                                                                </div>
+                                                                        </div>
+                                                                            <!--end::Col-->
+                                                                </div>
+                                                                <div class="d-flex justify-content-end">
+                                                                    <div>
+                                                                        <button type="button" class="btn btn-outline btn-outline-primary btn-sm" id="AddSecondContact">
+                                                                            <i class="ki-duotone ki-plus fs-3"></i>
+                                                                            Add second contact person
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                                </div>
+                                                            </div>
+                                                                <!--End::Step 4-->
+
+                                                                <!--begin::Step 5-->
+                                                                <div class="flex-column " data-kt-stepper-element="content">
+                                                                    <div>
+                                                                        <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                            <div class="card-title align-items-start flex-column">
+                                                                                <div class="d-flex flex-column">
+                                                                                    <!--begin::Info-->
+                                                                                    <div class="d-flex flex-wrap">
+                                                                                        <span class="d-flex align-items-center text-dark title-icon">
+                                                                                            <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                                <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                            </span>
+
+                                                                                            <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                                Partners information 
+                                                                                            </h3>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <!--end::Info-->
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="">
+                                                                                <!--Start:: Auto saving -->
+                                                                                <div >
+                                                                                    <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                                    <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                                </div>
+                                                                            
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-lg-12">
+                                                                                <div class="table-responsive">
+                                                                                    <table class="table table-bordered align-middle text-center">
+                                                                                        <thead class="bg-primary text-white">
+                                                                                                <tr>
+                                                                                                    <th class="text-white fw-normal p-8">Name</th>
+                                                                                                    <th class="text-white fw-normal p-8">ID Number</th>
+                                                                                                    <th class="text-white fw-normal p-8">Birth Date</th>
+                                                                                                    <th class="text-white fw-normal p-8">Ownership%</th>
+                                                                                                    <th class="text-white fw-normal p-8">Relation</th>
+                                                                                                    <th class="text-white fw-normal p-8">Nationality</th>
+                                                                                                    <th class="text-white fw-normal p-8 w-150px">Actions</th>
+                                                                                        
+                                                                                    </tr>
+                                                                                            
+                                                                                        </thead>
+                                                                                        <tbody class="text-center">
+                                                                                            <tr>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Ahmed Mohamed"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1234"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="19/8/1990"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1.3%"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="text"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Egyptian"></td>
+                                                                                                <td class="p-4">
+                                                                                                    <button id="AddNewRow" type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-plus text-primary fs-2"> </i>
+                                                                                                    </button>
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-trash text-danger fs-2"> </i>
+                                                                                                    </button>
+                                                                                                
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr id="HiddenNewRow" class="hidden-div" style="display: none;">
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Ahmed Mohamed"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1234"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="19/8/1990"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1.3%"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="text"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Egyptian"></td>
+                                                                                                <td class="p-4">
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-plus text-primary fs-2"> </i>
+                                                                                                    </button>
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-trash text-danger fs-2"> </i>
+                                                                                                    </button>
+                                                                                                
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                            </div>
+                                                            
+                                                                        
+                                                                        </div>
+                                                            
+                                                                    </div>
+                                                                </div>
+                                                            <!--End::Step 5-->
+
+                                                                   <!--begin::Step 6-->
+                                                                <div class="flex-column " data-kt-stepper-element="content">
+                                                                    <div>
+                                                                        <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                            <div class="card-title align-items-start flex-column">
+                                                                                <div class="d-flex flex-column">
+                                                                                    <!--begin::Info-->
+                                                                                    <div class="d-flex flex-wrap">
+                                                                                        <span class="d-flex align-items-center text-dark title-icon">
+                                                                                            <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                                <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                            </span>
+
+                                                                                            <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                                Managers and Board of Directors
+                                                                                            </h3>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                    <!--end::Info-->
+                                                                                </div>
+                                                                            </div>
+
+                                                                            <div class="">
+                                                                                <!--Start:: Auto saving -->
+                                                                                <div >
+                                                                                    <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                                    <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                                </div>
+                                                                            
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="row">
+                                                                            <div class="col-lg-12">
+                                                                                <div class="table-responsive">
+                                                                                    <table class="table table-bordered align-middle text-center">
+                                                                                        <thead class="bg-primary text-white">
+                                                                                                <tr>
+                                                                                                    <th class="text-white fw-normal p-8">Name</th>
+                                                                                                    <th class="text-white fw-normal p-8">ID Number</th>
+                                                                                                    <th class="text-white fw-normal p-8">Nationality</th>
+                                                                                                    <th class="text-white fw-normal p-8">Mobile Tel</th>
+                                                                                                    <th class="text-white fw-normal p-8">Email</th>
+                                                                                                    <th class="text-white fw-normal p-8 w-150px">Actions</th>
+                                                                                        
+                                                                                    </tr>
+                                                                                            
+                                                                                        </thead>
+                                                                                        <tbody class="text-center">
+                                                                                            <tr>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Ahmed Samir"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1234"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Egyptian"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="+20 01065678787"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Example@gmail.com"></td>
+                                                                                                <td class="p-4">
+                                                                                                    <button id="AddNewRowV2" type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-plus text-primary fs-2"> </i>
+                                                                                                    </button>
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-trash text-danger fs-2"> </i>
+                                                                                                    </button>
+                                                                                                
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                            <tr id="HiddenNewRowV2" class="hidden-div" style="display: none;">
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Ahmed Samir"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="1234"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Egyptian"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="+20 01065678787"></td>
+                                                                                                <td><input type="text" class="form-control text-center fs-5 text-dark" readonly="" placeholder="Example@gmail.com"></td>
+                                                                                                <td class="p-4">
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-plus text-primary fs-2"> </i>
+                                                                                                    </button>
+                                                                                                    <button type="button" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                                                        <i class="ki-solid ki-trash text-danger fs-2"> </i>
+                                                                                                    </button>
+                                                                                                
+                                                                                                </td>
+                                                                                            </tr>
+
+                                                                                            
+                                                                                            
+                                                                                            
+                                                                                        </tbody>
+                                                                                    </table>
+                                                                                </div>
+                                                                            </div>
+                                                            
+                                                                        
+                                                                        </div>
+                                                            
+                                                                    </div>
+                                                                </div>
+                                                            <!--End::Step 6-->
+                                                              <!--begin::Step 7-->
+                                                            <div class="flex-column " data-kt-stepper-element="content">
+                                                                <div id="Documents-section" style="display: block;">
+                                                                    <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                                        <div class="card-title align-items-start flex-column">
+                                                                            <div class="d-flex flex-column">
+                                                                                <!--begin::Info-->
+                                                                                <div class="d-flex flex-wrap">
+                                                                                    <span class="d-flex align-items-center text-dark title-icon">
+                                                                                        <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                            <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                                        </span>
+
+                                                                                        <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                            Documents
+                                                                                        </h3>
+                                                                                    </span>
+                                                                                </div>
+                                                                                <!--end::Info-->
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="">
+                                                                            <!--Start:: Auto saving -->
+                                                                            <div >
+                                                                                <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                                <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                            </div>
+                                                                        
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="row">
+                                                                
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Copy of the Commercial Registration </label>
+                                                                                <div class="form-control p-3 mb-3">
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                            <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                    </div>
+                                                                            </div>
+                                                                        </div>
+                                                                </div>
+                                                                <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                                    <div class="col-lg-6 mb-5">
+                                                                        <div class="fv-row">
+                                                                            <label class="form-label">Copy of the Company/ Enterprise IBAN Certificate / Card </label>
+                                                                                <div class="form-control p-3 mb-3">
+                                                                                    <div class="d-flex justify-content-between">
+                                                                                            <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                    </div>
+                                                                            </div>
+                                                                        </div>
+                                                                </div>
+                                                                <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">Copy of the Commercial Registration </label>
+                                                                                    <div class="form-control p-3 mb-3">
+                                                                                        <div class="d-flex justify-content-between">
+                                                                                                <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">Copy of the Company/ Enterprise IBAN Certificate / Card </label>
+                                                                                    <div class="form-control p-3 mb-3">
+                                                                                        <div class="d-flex justify-content-between">
+                                                                                                <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">Copy of the Commercial Registration </label>
+                                                                                    <div class="form-control p-3 mb-3">
+                                                                                        <div class="d-flex justify-content-between">
+                                                                                                <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+                                                                        <!--begin::Col-->
+                                                                        <div class="col-lg-6 mb-5">
+                                                                            <div class="fv-row">
+                                                                                <label class="form-label">Copy of the Company/ Enterprise IBAN Certificate / Card </label>
+                                                                                    <div class="form-control p-3 mb-3">
+                                                                                        <div class="d-flex justify-content-between">
+                                                                                                <input name="attachments" class="file-input" type="file" multiple="">
+                                                                                        </div>
+                                                                                </div>
+                                                                            </div>
+                                                                    </div>
+                                                                    <!--end::Col-->
+
+
+                                                                    </div>
+
+                                                                </div>
+                                                                <div id="successfully-section" style="display: none;">
+                                                                    <div class="row d-flex justify-content-center " >
+                                                                        <div class="col-lg-4">
+                                                                            <div class="d-flex align-items-center justify-content-center h-500px">
+                                                                                <div class="text-center">
+                                                                                    <div class="p-10">
+                                                                                        <div class="symbol symbol-circle symbol-75px">
+                                                                                            <span class="symbol-label bg-light-success">
+                                                                                                <span class="ki-duotone ki-check text-white fw-semibold fs-5x text-success rounded"></span>
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <p class="text-gray-600 fw-normal fs-6 my-4">
+                                                                                            Application submitted on: August 30, 2024
+                                                                                        </p>
+                                                                                        <div class="fw-bold fs-1">
+                                                                                            We are now reviewing your KYC form.
+                                                                                        </div>
+                                                                                        <p class="text-gray-600 fw-normal fs-6 my-4">
+                                                                                            We are reviewing your data submitted via the Customer Knowledge Form and will inform you as soon as the review results appear. You can still modify some data and resubmit the form to us again for review.
+                                                                                        </p>
+                                                                                        <a href="Dashboard.html" type="button" class="btn btn-primary btn-sm w-75">Done</a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        <!--End::Step 7-->
+                                                                                                                        
+                                           
+                                                <!--end::Group-->
+                                            </div>
+                                        </div>
+                                        </div>
+                                             <!--begin::Add New Form-->
+                                             <div id="HiddenSecondContact" class="hidden-div" style="display: none;">
+
+                                                <div class="card mb-5">
+                                                    <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
+                                                        <div class="card-title align-items-start flex-column">
+                                                            <div class="d-flex flex-column">
+                                                                <!--begin::Info-->
+                                                                <div class="d-flex flex-wrap">
+                                                                    <span class="d-flex align-items-center text-dark title-icon">
+                                                                        <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                            <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                        </span>
+
+                                                                        <h3 class="card-title fw-bold fs-3 m-0">
+                                                                            Another contact person
+                                                                        </h3>
+                                                                    </span>
+                                                                </div>
+                                                                <!--end::Info-->
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="">
+                                                            <!--Start:: Auto saving -->
+                                                            <div >
+                                                                <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                <span class="fs-5 text-gray-600">Auto saving</span>
+                                                            </div>
+                                                        
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <div class="row">
+                                                            <!--begin::Col-->
+                                                            <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Name </label>
+                                                                        <input type="text" class="form-control " placeholder="Enter Name "/>
+                                                                    </div>
+                                                            </div>
+                                                            <!--end::Col-->
+                                                                    <!--begin::Col-->
+                                                            <div class="col-lg-6 mb-5">
+                                                                <div class="fv-row">
+                                                                    <label class="form-label">ID No</label> 
+                                                                    <input type="text" class="form-control " placeholder="Enter ID No"/>
+                                                                </div>
+                                                        </div>
+                                                        <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-md-6 mb-5">
+                                                            <div class="fv-row">
+                                                            <label class="form-label required ">Date of Expiry</label>
+                                                            <div class="position-relative d-flex align-items-center">
+                                                                <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                <input class="form-control kt_datepicker" placeholder="Enter Date of Expiry" name="due_date" id="kt-Date-of-Expiry" />
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-lg-6 mb-5">
+                                                            <div class="fv-row">
+                                                                <label class="form-label">Contact Phone</label> 
+                                                                <input type="number" class="form-control " placeholder="Enter Contact Phone"/>
+                                                            </div>
+                                                    </div>
+                                                        <!--end::Col-->
+                                                            <!--begin::Col-->
+                                                            <div class="col-md-6 mb-5">
+                                                                <div class="fv-row">
+                                                                <label class="form-label required ">Date of Birth</label>
+                                                                <div class="position-relative d-flex align-items-center">
+                                                                    <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                    <input class="form-control kt_datepicker" placeholder="Enter Date of Birth" name="due_date" id="kt-Date-of-Birth" />
+                                                                </div>
+                                                            </div>
+                                                            </div>
+                                                            <!--end::Col-->
+                                                        <!--begin::Col-->
+                                                        <div class="col-md-6 mb-5">
+                                                            <div class="fv-row">
+                                                            <label class="form-label required ">Date of Expiry</label>
+                                                            <div class="position-relative d-flex align-items-center">
+                                                                <i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
+                                                                <input class="form-control kt_datepicker" placeholder="Enter Date of Expiry" name="due_date" id="kt-Date-of-Expiry2" />
+                                                            </div>
+                                                        </div>
+                                                        </div>
+                                                        <!--end::Col-->
+                                                    <!--begin::Col-->
+                                                    <div class="col-lg-6 mb-5">
+                                                        <div class="fv-row">
+                                                            <label class="form-label">Relation</label> 
+                                                            <input type="number" class="form-control " placeholder="Enter Relation"/>
+                                                        </div>
+                                                </div>
+                                                    <!--end::Col-->
+                                                                <!--begin::Col-->
+                                                                <div class="col-lg-6 mb-5">
+                                                                    <div class="fv-row">
+                                                                        <label class="form-label">Email Address</label> 
+                                                                        <input type="email" class="form-control " placeholder="Enter Email Address"/>
+                                                                    </div>
+                                                            </div>
+                                                                <!--end::Col-->
+                                                    </div>
+                                                    <div class="d-flex justify-content-end">
+                                                        <div>
+                                                            <a class="text-danger" type="button">  Delete Second contact person   </a>
+                                                        </div>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                   
+                                        </div>
+                                        <!--end::Add New Form-->
+
+                                        <!--begin::Actions-->
+                                        <div id="Actions-card" class="card mb-5">
+                                            <div class="p-5">
+                                                <div class="d-flex justify-content-end">
+                                                    <!--begin::Wrapper-->
+                                                    <div class="me-2">
+                                                        <button type="button" class="btn btn-outline btn-sm px-10" data-kt-stepper-action="previous">
+                                                            Back
+                                                        </button>
+                                                    </div>
+                                                    <!--end::Wrapper-->
+
+                                                    <!--begin::Wrapper-->
+                                                    <div>
+                                                        <button id="SubmitButton" type="button" class="btn btn-primary btn-sm px-10" data-kt-stepper-action="submit">
+                                                            <span class="indicator-label">
+                                                                Submit
+                                                            </span>
+                                                            <span class="indicator-progress"> Please wait... <span class="spinner-border spinner-border-sm align-middle ms-2"></span> </span>
+                                                        </button>
+
+                                                        <button type="button" class="btn btn-primary btn-sm px-10" data-kt-stepper-action="next">
+                                                            Next
+                                                        </button>
+                                                    </div>
+                                                    <!--end::Wrapper-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!--end::Actions-->
+                                    </form>
+                                    <!--end::Form-->
+                                </div>
+                                <!--end::Stepper-->
+
+
 										
 										</div>
 									</div>
@@ -724,6 +1564,37 @@
 	<script src="assets/js/apexcharts.js"></script>
     <script src="assets/js/main.js"></script>
 	<!--end::Custom Javascript-->
+
+    <script>
+        $('#SubmitButton').click(function() {
+          var currentStep = $('.stepper-item.current');
+          currentStep.removeClass('current').addClass('completed');
+      $('#Actions-card').hide();
+      $('#Documents-section').hide();
+      $('#successfully-section').show();
+  });
+  </script>
+
+<script>
+$(".kt_datepicker").flatpickr();
+</script>
+<script>
+      document.getElementById('AddSecondContact').addEventListener('click', function () {
+    const HiddenSecondContact = document.getElementById('HiddenSecondContact');
+    HiddenSecondContact.style.display = 'block'; // Show the first div
+  });
+
+  document.getElementById('AddNewRow').addEventListener('click', function () {
+    const HiddenNewRow = document.getElementById('HiddenNewRow');
+    HiddenNewRow.style.display = 'table-row'; // Show the first div
+  });
+
+  document.getElementById('AddNewRowV2').addEventListener('click', function () {
+    const HiddenNewRowV2 = document.getElementById('HiddenNewRowV2');
+    HiddenNewRowV2.style.display = 'table-row'; // Show the first div
+  });
+
+  </script>
 
 
 </body>
