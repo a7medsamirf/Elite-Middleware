@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Roles And Permissions</title>
+	<title>Elite Middleware / Quotation Requests</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -75,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7">Roles And Permissions</li>
+								<li class="breadcrumb-item text-custom-gray fs-7">Log List</li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -286,128 +286,82 @@
 							data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
 							data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
 							data-kt-scroll-save-state="true">
-							<!--begin::Menu-->
+
+                            	<!--begin::Menu-->
 
 							<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
-							id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
-							<!--begin:Menu content-->
-							<div class="menu-item">
-								<!--begin:Menu content-->
-								<div class="menu-content">
-									<span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
-								</div>
-								<!--end:Menu content-->
-							</div>
-							<!--End:Menu content-->
-							<!--begin:Menu item-->
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Dashboard.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-category fw-bold fs-2"></i>
+                            id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
+                            <!--begin:Menu content-->
+                            <div class="menu-item">
+                                <!--begin:Menu content-->
+                                <div class="menu-content">
+                                    <span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
+                                </div>
+                                <!--end:Menu content-->
+                            </div>
+                            <!--End:Menu content-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Dashboard.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-category fw-bold fs-2"></i>
 
-										</span>
-										<span class="menu-title">Dashboard</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Insurance-Requests.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-document-download fs-2"></i>
-										</span>
-										<span class="menu-title">Insurance Requests</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="rating-table.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-layer fs-2"></i>
-										</span>
-										<span class="menu-title">rating table</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Risk-Classifications.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-task-square fs-2"></i>
-										</span>
-										<span class="menu-title">Risk Classifications</span>
-									</span>
-								</a>
-							</div>
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Claims.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-document-text fs-2"></i>
-										</span>
-										<span class="menu-title">Claims</span>
-									</span>
-								</a>
-							</div>
-							<!--begin::Separator-->
-							<div class="separator separator my-5 mx-3 border-1"></div>
-							<!--end::Separator-->
-							<!--begin:Menu content-->
-							<div class="menu-item">
-								<!--begin:Menu content-->
-								<div class="menu-content">
-									<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
-								</div>
-								<!--end:Menu content-->
-							</div>
-							<!--End:Menu content-->
+                                        </span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Create-Request.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-note-favorite fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Create Request</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Invoices.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-document-text fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Invoices</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Polices.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-document-download fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Polices</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Quotation-Request.html">
+                                    <span class="menu-link rounded-0 active p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-task-square fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Quotation Request</span>
+                                    </span>
+                                </a>
+                            </div>
+            
 
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Users.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-profile-2user fs-2"></i>
-										</span>
-										<span class="menu-title">Users</span>
-									</span>
-								</a>
-							</div>
-					
+                        </div>
 
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Logs.html">
-									<span class="menu-link p-3">
-										<span class="menu-icon">
-											<i class="isax isax-note-21 fs-2"></i>
-										</span>
-										<span class="menu-title">Logs</span>
-									</span>
-								</a>
-							</div>
-						
-							<div class="menu-item menu-accordion">
-								<!--begin:Menu link-->
-								<a href="Roles.html">
-									<span class="menu-link rounded-0 active p-3">
-										<span class="menu-icon">
-											<i class="isax isax-check fs-2"></i>
-										</span>
-										<span class="menu-title">Roles And Permissions</span>
-									</span>
-								</a>
-							</div>
-
-						</div>
-							<!--end::Menu-->
+                        <!--end::Menu-->
 						</div>
 						<!--end::Scroll wrapper-->
 					</div>
@@ -437,10 +391,11 @@
                                                     <div class="card-title align-items-start flex-column">
                                                         <span class="d-flex align-items-center text-dark title-icon">
 															<span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
-																<i class="isax isax-check5 fs-4 text-primary"></i>
+																<i class="isax isax-note-text5 fs-4 text-primary">
+																</i>
 															</span>
                                                         
-                                                            <h3 class="card-title fw-bold fs-3 m-0"> Roles And Permissions </h3>
+                                                            <h3 class="card-title fw-bold fs-3 m-0"> Quotation Requests </h3>
                                                           </span>
                                                     </div>
 													<div class="card-toolbar ">
@@ -468,10 +423,6 @@
 																	<option value="3">Filter 3</option>
 																</select>
 															</div>
-                                                                <!-- Create Role -->
-                                                            <div class="min-w-100px">
-                                                                <a href="Create-Role.html" type="button" class="btn btn-primary btn-sm"> Create Role</a>
-                                                            </div>
 														</div>
 													</div>
                                                 </div>
@@ -485,9 +436,15 @@
                                                             <!--begin::Table head-->
                                                             <thead class="rounded ">
                                                                 <tr class="fw-bold text-custom-gray">
-                                                                    <th class="p-4 min-w-200px">#</th>
-                                                                    <th class="p-4 min-w-200px">Role</th>
-                                                                    <th class="p-4 min-w-100px">Actions</th>
+                                                                    <th class="p-4">#</th>
+                                                                    <th class="p-4 min-w-125px">Partner</th>
+                                                                    <th class="p-4 min-w-125px">Status</th>
+                                                                    <th class="p-4 min-w-200px">Date</th>
+                                                                    <th class="p-4 min-w-150px">Product</th>
+                                                                    <th class="p-4 min-w-150px">Origin</th>
+                                                                    <th class="p-4 min-w-150px">Destination</th>
+                                                                    <th class="p-4 min-w-150px">Created At</th>
+                                                                    <th class="p-4 min-w-100px">Details</th>
                                                                 </tr>
                                                             </thead>
                                                             <!--end::Table head-->
@@ -495,252 +452,218 @@
                                                             <tbody>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">1</span>
+                                                                        <span class="text-custom-dark fs-6">1</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Data Entry</span>
+                                                                        <span class="text-custom-dark fs-6">Al Rowad</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-success fs-6 p-2">Approved</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">2</span>
+                                                                        <span class="text-custom-dark fs-6">2</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
+                                                                        <span class="text-custom-dark fs-6">Hashmove</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-primary fs-6 p-2">Submitted</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">3</span>
+                                                                        <span class="text-custom-dark fs-6">3</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
+                                                                        <span class="text-custom-dark fs-6">Hashmove</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-danger fs-6 p-2">Cancelled</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">4</span>
+                                                                        <span class="text-custom-dark fs-6">4</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Noha Role</span>
+                                                                        <span class="text-custom-dark fs-6">Al Rowad</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-success fs-6 p-2">Approved</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">5</span>
+                                                                        <span class="text-custom-dark fs-6">5</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
+                                                                        <span class="text-custom-dark fs-6">Hashmove</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-primary fs-6 p-2">Submitted</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                                 <tr>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">6</span>
+                                                                        <span class="text-custom-dark fs-6">6</span>
                                                                     </td>
                                                                     <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
+                                                                        <span class="text-custom-dark fs-6">Hashmove</span>
                                                                     </td>
-                                            
                                                                     <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+                                                                        <span class="badge badge-light-danger fs-6 p-2">Cancelled</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Arthur Christian</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">Saudi Arabia , Jeddah Port</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">US NYC, “New Yor....</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <span class="text-custom-dark fs-6">1-1-2025</span>
+                                                                    </td>
+                                                                    <td class="p-4">
+                                                                        <a href="Quotation-Details.html" target="_blank" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                             <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                                 <span class="path1"></span>
                                                                                 <span class="path2"></span>
                                                                                 <span class="path3"></span>
                                                                                 </i>
                                                                         </a>
-                                                                
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">7</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
-                                                                    </td>
-                                            
-                                                                    <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                                <span class="path1"></span>
-                                                                                <span class="path2"></span>
-                                                                                <span class="path3"></span>
-                                                                                </i>
-                                                                        </a>
-                                                                
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">8</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
-                                                                    </td>
-                                            
-                                                                    <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                                <span class="path1"></span>
-                                                                                <span class="path2"></span>
-                                                                                <span class="path3"></span>
-                                                                                </i>
-                                                                        </a>
-                                                                
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">9</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
-                                                                    </td>
-                                            
-                                                                    <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                                <span class="path1"></span>
-                                                                                <span class="path2"></span>
-                                                                                <span class="path3"></span>
-                                                                                </i>
-                                                                        </a>
-                                                                
-                                                                    </td>
-                                                                </tr>
-                                                                <tr>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">10</span>
-                                                                    </td>
-                                                                    <td class="p-4">
-                                                                        <span class="text-custom-gray fs-7 fw-semibold">Role</span>
-                                                                    </td>
-                                            
-                                                                    <td class="p-4">
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-notepad-edit  text-custom-gray fs-2">
-                                                                                            <span class="path1"></span>
-                                                                                            <span class="path2"></span>
-                                                                                 </i>
-                                                                        </a>
-                                                                        <a href="Create-Role.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                            <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                                <span class="path1"></span>
-                                                                                <span class="path2"></span>
-                                                                                <span class="path3"></span>
-                                                                                </i>
-                                                                        </a>
-                                                                
+                                                                        <a href="Offers.html" target="_blank" class="btn btn-primary btn-sm"> Offers </a>
                                                                     </td>
                                                                 </tr>
                                                             </tbody>

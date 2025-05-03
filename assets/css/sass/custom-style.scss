@@ -299,12 +299,30 @@ ul {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
   .HiddenDiv {
     visibility: hidden;
      }
 
+/* .hidden-div{
+    display: none;
+}
 
-    
+.visible {
+    display: block;
+  }  */
+
+  ::file-selector-button {
+    font: inherit;
+    outline: none !important;
+    padding: calc(0.4rem + 1px) calc(0.8rem + 1px);
+    box-shadow: none;
+    color: var(--bs-custom-dark);
+    background-color: var(--bs-primary-light);
+    border-radius: 0.425rem;
+    border: 0;
+    cursor: pointer;
+}
 /*========================================
 /* accordion
 ========================================*/
@@ -579,6 +597,13 @@ input[type=number]::-webkit-outer-spin-button {
 ========================================*/
 .stepper {
     &.stepper-pills{
+        &.V2{
+            .stepper-line {
+                width: 100px !important;
+                top: 15px !important;
+            }
+      
+        }
         .stepper-item {
             .stepper-icon {
                 border-radius: 50%;
@@ -606,30 +631,35 @@ input[type=number]::-webkit-outer-spin-button {
                 color: var(--bs-text-secondary);
                 border-radius: 50%;
             }
+            .stepper-number {
+                color: var(--bs-text-secondary);
+                font-size: 0;
+                background: var(--bs-text-secondary);
+                padding: 8px;
+                border-radius: 50%;
+                width: 10px;
+                height: 10px;
+                text-align: center;
+                line-height: 10px;
+                font-size: 0px !important;
+            }
+        }
+        .stepper-item.completed {
+            .stepper-icon, .stepper.stepper-pills .stepper-item.current.mark-completed:last-child .stepper-icon {
+                transition: color .2s ease;
+                background-color: var(--bs-success);
+                border: var(--bs-stepper-icon-border-completed);
+                border-radius: 50%;
+            }
+            .stepper-line {
+                border-top: 2px solid var(--bs-success) !important;
+            }
         }
     }
 }
 
-.stepper.stepper-pills .stepper-item.current .stepper-icon .stepper-number {
-    color: var(--bs-text-secondary);
-    font-size: 0;
-    background: var(--bs-text-secondary);
-    padding: 8px;
-    border-radius: 50%;
-    width: 10px;
-    height: 10px;
-    text-align: center;
-    line-height: 10px;
-}
-.stepper.stepper-pills .stepper-item.completed .stepper-icon, .stepper.stepper-pills .stepper-item.current.mark-completed:last-child .stepper-icon {
-    transition: color .2s ease;
-    background-color: var(--bs-success);
-    border: var(--bs-stepper-icon-border-completed);
-    border-radius: 50%;
-}
-.stepper.stepper-pills .stepper-item.completed .stepper-line {
-    border-top: 2px solid var(--bs-success) !important;
-}
+
+
 .stepper-card{
     background-color: #F5F8FA;
     .top-header {
@@ -650,6 +680,8 @@ input[type=number]::-webkit-outer-spin-button {
       }
       }
 }
+
+
 
   html[dir="rtl"] {
    .top-header{

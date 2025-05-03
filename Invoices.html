@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Claims</title>
+	<title>Elite Middleware / Invoices</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -75,7 +75,7 @@
                                     </li>
                                     <!--end::Item-->
                                     <!--begin::Item-->
-                                    <li class="breadcrumb-item text-custom-gray fs-7"> Claims </li>
+                                    <li class="breadcrumb-item text-custom-gray fs-7"> Invoices </li>
                                     <!--end::Item-->
                                 </ul>
                                 <!--end::Breadcrumb-->
@@ -256,22 +256,6 @@
 							</i>
 						</div>
 
-						<!-- 		<div id="kt_app_sidebar_toggle"
-							class="app-sidebar-toggle btn btn-icon btn-md border-0 position-absolute top-50 start-100 translate-middle rotate"
-							data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
-							data-kt-toggle-name="app-sidebar-minimize">
-							<i class="ki-duotone ki-right-left fs-1 ">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-                                       </i>
-						 	<i class="ki-duotone ki-black-left-line fs-1 rotate-180">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i> 
-						</div> -->
-						<!--end::Sidebar toggle-->
-
 					</div>
 
 					<!--end::Logo-->
@@ -288,137 +272,89 @@
 							data-kt-scroll-save-state="true">
 							<!--begin::Menu-->
 
-							<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
-								id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
-								<!--begin:Menu content-->
-								<div class="menu-item">
-									<!--begin:Menu content-->
-									<div class="menu-content">
-										<span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
-									</div>
-									<!--end:Menu content-->
-								</div>
-								<!--End:Menu content-->
-								<!--begin:Menu item-->
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Dashboard.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-category fw-bold fs-2"></i>
+                            <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
+                            id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
+                            <!--begin:Menu content-->
+                            <div class="menu-item">
+                                <!--begin:Menu content-->
+                                <div class="menu-content">
+                                    <span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
+                                </div>
+                                <!--end:Menu content-->
+                            </div>
+                            <!--End:Menu content-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Dashboard.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-category fw-bold fs-2"></i>
 
-											</span>
-											<span class="menu-title">Dashboard</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Insurance-Requests.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-document-download fs-2"></i>
-											</span>
-											<span class="menu-title">Insurance Requests</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="rating-table.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-layer fs-2"></i>
-											</span>
-											<span class="menu-title">rating table</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Risk-Classifications.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-task-square fs-2"></i>
-											</span>
-											<span class="menu-title">Risk Classifications</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Claims.html">
-										<span class="menu-link rounded-0 active p-3">
-											<span class="menu-icon">
-												<i class="isax isax-document-text fs-2"></i>
-											</span>
-											<span class="menu-title">Claims</span>
-										</span>
-									</a>
-								</div>
-								<!--begin::Separator-->
-								<div class="separator separator my-5 mx-3 border-1"></div>
-								<!--end::Separator-->
-								<!--begin:Menu content-->
-								<div class="menu-item">
-									<!--begin:Menu content-->
-									<div class="menu-content">
-										<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
-									</div>
-									<!--end:Menu content-->
-								</div>
-								<!--End:Menu content-->
+                                        </span>
+                                        <span class="menu-title">Dashboard</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Create-Request.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-note-favorite fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Create Request</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Invoices.html">
+                                    <span class="menu-link rounded-0 active p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-document-text fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Invoices</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Polices.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-document-download fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Polices</span>
+                                    </span>
+                                </a>
+                            </div>
+                            <div class="menu-item menu-accordion">
+                                <!--begin:Menu link-->
+                                <a href="Quotation-Request.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                                            <i class="isax isax-task-square fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Quotation Request</span>
+                                    </span>
+                                </a>
+                            </div>
+            
 
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Users.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-profile-2user fs-2"></i>
-											</span>
-											<span class="menu-title">Users</span>
-										</span>
-									</a>
-								</div>
-						
+                        <!-- 	<div class="menu-item menu-accordion">
+                                <a href="Business-Partner.html">
+                                    <span class="menu-link p-3">
+                                        <span class="menu-icon">
+                            
+                                            <i class="ki-outline ki-setting-2 fs-2"></i>
+                                        </span>
+                                        <span class="menu-title">Business Partner Incoterm</span>
+                                    </span>
+                                </a>
+                            </div> -->
 
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Logs.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-note-21 fs-2"></i>
-											</span>
-											<span class="menu-title">Logs</span>
-										</span>
-									</a>
-								</div>
-							
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Roles.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-check fs-2"></i>
-											</span>
-											<span class="menu-title">Roles And Permissions</span>
-										</span>
-									</a>
-								</div>
-							<!-- 	<div class="menu-item menu-accordion">
-									<a href="Business-Partner.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-								
-												<i class="ki-outline ki-setting-2 fs-2"></i>
-											</span>
-											<span class="menu-title">Business Partner Incoterm</span>
-										</span>
-									</a>
-								</div> -->
-
-							</div>
-
+                        </div>
 							<!--end::Menu-->
 						</div>
 						<!--end::Scroll wrapper-->
@@ -453,7 +389,7 @@
 																</i>
 															</span>
                                                         
-                                                            <h3 class="card-title fw-bold fs-3 m-0"> Claims </h3>
+                                                            <h3 class="card-title fw-bold fs-3 m-0"> Invoices </h3>
                                                           </span>
                                                     </div>
 
@@ -477,7 +413,7 @@
                                                                               </div>
                                                                         </div>
                                                                         <div class="d-flex my-1">
-                                                                            <span class="mx-2 text-custom-gray">	All Quotations </span>
+                                                                            <span class="mx-2 text-custom-gray"> All Policies </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -500,7 +436,7 @@
                                                                               </div>
                                                                         </div>
                                                                         <div class="d-flex my-1">
-                                                                            <span class="mx-2 text-custom-gray">	Paid Quotations </span>
+                                                                            <span class="mx-2 text-custom-gray">	Paid Policies </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -523,7 +459,7 @@
                                                                               </div>
                                                                         </div>
                                                                         <div class="d-flex my-1">
-                                                                            <span class="mx-2 text-custom-gray"> Unpaid Quotations </span>
+                                                                            <span class="mx-2 text-custom-gray"> Unpaid Policies </span>
                                                                         </div>
                                                                     </div>
                                                                 </div>
@@ -572,9 +508,12 @@
                                                     <!--begin::Table head-->
                                                     <thead class="rounded ">
                                                         <tr class="fw-bold text-custom-gray">
-                                                            <th class="p-4 min-w-200px">Quotation Number</th>
-                                                            <th class="p-4 min-w-200px">Payment Status</th>
-                                                            <th class="p-4 min-w-100px">Actions</th>
+                                                            <th class="p-4 min-w-100px">Policy Number</th>
+                                                            <th class="p-4 min-w-100px">Insurance Company Name</th>
+                                                            <th class="p-4 min-w-100px">Payment Status</th>
+                                                            <th class="p-4 min-w-100px">Inception Date</th>
+                                                            <th class="p-4 min-w-100px">Premium Price</th>
+                                                            <th class="p-4 text-center min-w-100px">Actions</th>
                                                         </tr>
                                                     </thead>
                                                     <!--end::Table head-->
@@ -585,12 +524,24 @@
                                                                 <span class="text-custom-gray fs-7 fw-semibold">12345</span>
                                                             </td>
                                                             <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
+                                                            </td>
+                                                            <td class="p-4">
                                                                 <div class="text-center">
                                                                     <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
                                                                 </div>
                                                             </td>
-
                                                             <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                             
+                                                            </td>
+                                                            <td class="p-4 text-center">
                                                                 <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                     <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                         <span class="path1"></span>
@@ -606,10 +557,80 @@
                                                                 <span class="text-custom-gray fs-7 fw-semibold">12345</span>
                                                             </td>
                                                             <td class="p-4">
-                                                            <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
                                                             </td>
-
                                                             <td class="p-4">
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4 text-center">
+                                                                <a href="" class="btn btn-primary btn-sm px-10">
+                                                                    Pay
+                                                                </a>
+                                                        
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4 text-center">
+                                                                <a href="" class="btn btn-primary btn-sm px-10">
+                                                                    Pay
+                                                                </a>
+                                                        
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                             
+                                                            </td>
+                                                            <td class="p-4 text-center">
                                                                 <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
                                                                     <i class="ki-duotone ki-eye text-custom-gray fs-2">
                                                                         <span class="path1"></span>
@@ -625,16 +646,54 @@
                                                                 <span class="text-custom-gray fs-7 fw-semibold">12345</span>
                                                             </td>
                                                             <td class="p-4">
-                                                            <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
                                                             </td>
-
                                                             <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4 text-center">
+                                                                <a href="" class="btn btn-primary btn-sm px-10">
+                                                                    Pay
+                                                                </a>
+                                                        
+                                                            </td>
+                                                        </tr>
+
+                                                        <tr>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4 text-center">
+                                                                <a href="" class="btn btn-primary btn-sm px-10">
+                                                                    Pay
                                                                 </a>
                                                         
                                                             </td>
@@ -644,97 +703,29 @@
                                                                 <span class="text-custom-gray fs-7 fw-semibold">12345</span>
                                                             </td>
                                                             <td class="p-4">
-                                                            <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                <span class="text-custom-dark d-block fs-6">Med Gulf</span>
                                                             </td>
-
                                                             <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
+                                                                <div class="text-center">
+                                                                    <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <span class="text-custom-dark d-block fs-6">30-12-2025</span>
+                                                            </td>
+                                                            <td class="p-4">
+                                                                <div class="text-custom-dark d-flex gap-10 fs-6">
+                                                                    <span  class="text-custom-dark d-block fs-6">0.00</span>
+                                                                    <img alt="Saudi Riyal" src="assets/media/svg/Saudi-Riyal.svg" class="">
+                                                                </div>
+                                                            </td>
+                                                            <td class="p-4 text-center">
+                                                                <a href="" class="btn btn-primary btn-sm px-10">
+                                                                    Pay
                                                                 </a>
                                                         
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td class="p-4">
-                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
-                                                            </td>
-                                                            <td class="p-4">
-                                                            <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
-                                                            </td>
-
-                                                            <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
-                                                                </a>
-                                                        
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="p-4">
-                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
-                                                            </td>
-                                                            <td class="p-4">
-                                                            <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
-                                                            </td>
-
-                                                            <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
-                                                                </a>
-                                                        
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="p-4">
-                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
-                                                            </td>
-                                                            <td class="p-4">
-                                                            <span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Paid</span>
-                                                            </td>
-
-                                                            <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
-                                                                </a>
-                                                        
-                                                            </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <td class="p-4">
-                                                                <span class="text-custom-gray fs-7 fw-semibold">12345</span>
-                                                            </td>
-                                                            <td class="p-4">
-                                                            <span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">Unpaid</span>
-                                                            </td>
-
-                                                            <td class="p-4">
-                                                                <a href="" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
-                                                                    <i class="ki-duotone ki-eye text-custom-gray fs-2">
-                                                                        <span class="path1"></span>
-                                                                        <span class="path2"></span>
-                                                                        <span class="path3"></span>
-                                                                        </i>
-                                                                </a>
-                                                        
-                                                            </td>
-                                                        </tr>
-
 
                                                     </tbody>
                                                     <!--end::Table body-->

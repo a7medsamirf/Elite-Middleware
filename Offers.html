@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Add Client</title>
+	<title>Elite Middleware / Offers</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -22,7 +22,6 @@
 	data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true"
 	data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
 	data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-fixed="true" class="app-default">
-
 
 
 	<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
@@ -75,7 +74,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7"> Rating Table </li>
+								<li class="breadcrumb-item text-custom-gray fs-7">Offers</li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -94,6 +93,7 @@
 									<span
 										class="position-absolute top-0 start-100 translate-middle badge badge-circle badge-danger ms-n4 mt-3">14</span>
 								</button>
+
 								<!--begin::User account menu-->
 								<div>
 									<div class="d-flex align-items-center px-3 cursor-pointer"
@@ -227,8 +227,8 @@
 			<!--end::Header-->
 			<!--begin::Wrapper-->
 			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
-					<!--begin::Sidebar-->
-                    <div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
+				<!--begin::Sidebar-->
+				<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
 					data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}"
 					data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start"
 					data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
@@ -256,27 +256,10 @@
 							</i>
 						</div>
 
-						<!-- 		<div id="kt_app_sidebar_toggle"
-							class="app-sidebar-toggle btn btn-icon btn-md border-0 position-absolute top-50 start-100 translate-middle rotate"
-							data-kt-toggle="true" data-kt-toggle-state="active" data-kt-toggle-target="body"
-							data-kt-toggle-name="app-sidebar-minimize">
-							<i class="ki-duotone ki-right-left fs-1 ">
-											<span class="path1"></span>
-											<span class="path2"></span>
-											<span class="path3"></span>
-                                       </i>
-						 	<i class="ki-duotone ki-black-left-line fs-1 rotate-180">
-								<span class="path1"></span>
-								<span class="path2"></span>
-							</i> 
-						</div> -->
-						<!--end::Sidebar toggle-->
-
 					</div>
 
 
-					<!--end::Logo-->
-					
+								
 					<!--begin::sidebar menu-->
 					<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
 						<!--begin::Menu wrapper-->
@@ -287,128 +270,82 @@
 								data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
 								data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
 								data-kt-scroll-save-state="true">
-								<!--begin::Menu-->
-								<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
-								id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
-								<!--begin:Menu content-->
-								<div class="menu-item">
-									<!--begin:Menu content-->
-									<div class="menu-content">
-										<span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
-									</div>
-									<!--end:Menu content-->
-								</div>
-								<!--End:Menu content-->
-								<!--begin:Menu item-->
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Dashboard.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-category fw-bold fs-2"></i>
+					
+                                <!--begin::Menu-->
 
-											</span>
-											<span class="menu-title">Dashboard</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Insurance-Requests.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-document-download fs-2"></i>
-											</span>
-											<span class="menu-title">Insurance Requests</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="rating-table.html">
-										<span class="menu-link rounded-0 active p-3">
-											<span class="menu-icon">
-												<i class="isax isax-layer fs-2"></i>
-											</span>
-											<span class="menu-title">rating table</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Risk-Classifications.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-task-square fs-2"></i>
-											</span>
-											<span class="menu-title">Risk Classifications</span>
-										</span>
-									</a>
-								</div>
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Claims.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-document-text fs-2"></i>
-											</span>
-											<span class="menu-title">Claims</span>
-										</span>
-									</a>
-								</div>
-								<!--begin::Separator-->
-								<div class="separator separator my-5 mx-3 border-1"></div>
-								<!--end::Separator-->
-								<!--begin:Menu content-->
-								<div class="menu-item">
-									<!--begin:Menu content-->
-									<div class="menu-content">
-										<span class="text-custom-gray fw-bold text-uppercase fs-7">System Settings</span>
-									</div>
-									<!--end:Menu content-->
-								</div>
-								<!--End:Menu content-->
+                                <div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
+                                id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
+                                <!--begin:Menu content-->
+                                <div class="menu-item">
+                                    <!--begin:Menu content-->
+                                    <div class="menu-content">
+                                        <span class="text-custom-gray fw-bold text-uppercase fs-7">Main Pages</span>
+                                    </div>
+                                    <!--end:Menu content-->
+                                </div>
+                                <!--End:Menu content-->
+                                <!--begin:Menu item-->
+                                <div class="menu-item menu-accordion">
+                                    <!--begin:Menu link-->
+                                    <a href="Dashboard.html">
+                                        <span class="menu-link p-3">
+                                            <span class="menu-icon">
+                                                <i class="isax isax-category fw-bold fs-2"></i>
 
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Users.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-profile-2user fs-2"></i>
-											</span>
-											<span class="menu-title">Users</span>
-										</span>
-									</a>
-								</div>
-						
+                                            </span>
+                                            <span class="menu-title">Dashboard</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-accordion">
+                                    <!--begin:Menu link-->
+                                    <a href="Create-Request.html">
+                                        <span class="menu-link p-3">
+                                            <span class="menu-icon">
+                                                <i class="isax isax-note-favorite fs-2"></i>
+                                            </span>
+                                            <span class="menu-title">Create Request</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-accordion">
+                                    <!--begin:Menu link-->
+                                    <a href="Invoices.html">
+                                        <span class="menu-link p-3">
+                                            <span class="menu-icon">
+                                                <i class="isax isax-document-text fs-2"></i>
+                                            </span>
+                                            <span class="menu-title">Invoices</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-accordion">
+                                    <!--begin:Menu link-->
+                                    <a href="Polices.html">
+                                        <span class="menu-link p-3">
+                                            <span class="menu-icon">
+                                                <i class="isax isax-document-download fs-2"></i>
+                                            </span>
+                                            <span class="menu-title">Polices</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="menu-item menu-accordion">
+                                    <!--begin:Menu link-->
+                                    <a href="Quotation-Request.html">
+                                        <span class="menu-link rounded-0 active p-3">
+                                            <span class="menu-icon">
+                                                <i class="isax isax-task-square fs-2"></i>
+                                            </span>
+                                            <span class="menu-title">Quotation Request</span>
+                                        </span>
+                                    </a>
+                                </div>
 
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Logs.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-note-21 fs-2"></i>
-											</span>
-											<span class="menu-title">Logs</span>
-										</span>
-									</a>
-								</div>
-							
-								<div class="menu-item menu-accordion">
-									<!--begin:Menu link-->
-									<a href="Roles.html">
-										<span class="menu-link p-3">
-											<span class="menu-icon">
-												<i class="isax isax-check fs-2"></i>
-											</span>
-											<span class="menu-title">Roles And Permissions</span>
-										</span>
-									</a>
-								</div>
 
-							</div>
+                            </div>
 
-								<!--end::Menu-->
+                            <!--end::Menu-->
 							</div>
 							<!--end::Scroll wrapper-->
 						</div>
@@ -449,7 +386,7 @@
 													<!--begin::Title-->
 													<div>
 														<div class="page-heading text-primary fw-bold fs-5 my-0">
-															Back
+                                                            Offer Details
 														</div>
 														<!--end::Title-->
 									
@@ -458,17 +395,7 @@
 												</div>
 												<!--end::Page title-->
 											</div>
-									
-											<div class="d-flex align-items-center gap-3">
-													<a href="#" class="btn custom-btn-light btn-sm px-10">
-														Cancel
-													</a>
-                                                    <a href="#" class="btn btn-primary btn-sm px-10">
-														Save
-													</a>
 
-												</div>
-									
 												</div>
 											</div>
 										</div>
@@ -476,68 +403,50 @@
 									</div>
 										<!--end::Toolbar container-->
 
+								<section class="">
+									<div class="row">
+										<div class="col-lg-12">
+                                            <div class="card">
+                                                <div class="card-header d-flex align-items-center flex-stack p-5 border-0 mb-5">
+                                                    <div class="card-title align-items-start flex-column">
+                                                        <div class="d-flex flex-column">
+                                                            <!--begin::Info-->
+                                                            <div class="d-flex flex-wrap">
+                                                                <span class="d-flex align-items-center text-dark title-icon">
+                                                                    <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                        <i class="isax isax-note-text5 fs-4 text-primary"> </i>
+                                                                    </span>
 
-							<!--begin::Main-->
-							<div class="d-flex flex-column flex-column-fluid">
-
-                                <section class="">
-                                    <div class="row">
-                                      <div class="col-lg-12">
-                                        <div class="card mb-5">
-                                          <div class="card-header align-items-center p-5 border-0">
-                                            <div class="card-title align-items-start flex-column">
-                                              <div class="d-flex flex-column">
-                                              <!--begin::Info-->
-                                              <div class="d-flex flex-wrap">
-                                                <span class="d-flex align-items-center">
-                                                <h3 class="card-title text-primary fs-2 m-0"> Add New Client </h3>
-                                                </span>
-                                          
-                                              </div>
-                                              <!--end::Info-->
-                                              </div>
-                                          
-                                            </div>
-                                  
-                                            </div>
-                                          <div class="card-body p-5">
-                                            
-                                                <div class="row">
-                                                    <div class="col-lg-12 mb-5">
-                                                        <!--begin::Input group-->
-                                                        <div class="fv-row">
-                                                          <!--begin::Label-->
-                                                          <label class="form-label">Select Client</label>
-                                                          <!--end::Label-->
-                                      
-                                                          <!--begin::Input-->
-                                                          <select
-                                                            class="form-select form-select-lg"
-                                                            data-control="select2"
-                                                            data-close-on-select="false"
-                                                            multiple="multiple"
-                                                            data-placeholder="Selecting Client">
-                                                            <option></option>
-                                                            <option value="1">Choose The Role
-                                                            <option value="2">Client 1</option>
-                                                            <option value="3">Client 2
-                                                            </option>
-                                                            <option value="4">Client 3</option>
-                                                            <option value="5">Client 4</option>
-                                                          </select>
-                                                          <!--end::Input-->
+                                                                    <h3 class="card-title fw-bold fs-3 m-0">
+                                                                        Offers
+                                                                    </h3>
+                                                                </span>
+                                                            </div>
+                                                            <!--end::Info-->
                                                         </div>
-                                                        <!--end::Input group-->
-                                                      </div>
-                                   
-                                          </div>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  
-                                  
-                                  </section>
-                                  
+                                                    </div>
+
+                                                    <div class="">
+                                                        <!--Start:: Auto saving -->
+                                                        <div>
+                                                            <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                            <span class="fs-5 text-gray-600">Auto saving</span>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </div>
+
+                                                <div class="card-body p-5">
+
+                                                </div>
+                                                
+                                            </div>
+
+										</div>
+									</div>
+
+
+								</section>
 
 
 
