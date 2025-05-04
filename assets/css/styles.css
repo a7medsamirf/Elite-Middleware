@@ -15768,38 +15768,32 @@
   
   .isax-note-favorite1 .path1:before {
     content: "\f44d";
-    color: rgb(41, 45, 50);
   }
   
   .isax-note-favorite1 .path2:before {
     content: "\f44e";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
   }
   
   .isax-note-favorite1 .path3:before {
     content: "\f44f";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
     opacity: 0.4;
   }
   
   .isax-note-favorite1 .path4:before {
     content: "\f450";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
   }
   
   .isax-note-favorite1 .path5:before {
     content: "\f451";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
   }
   
   .isax-note-favorite1 .path6:before {
     content: "\f452";
     margin-left: -1em;
-    color: rgb(41, 45, 50);
   }
   
   .isax-note-remove1 .path1:before {

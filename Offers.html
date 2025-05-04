@@ -228,10 +228,10 @@
 			<!--begin::Wrapper-->
 			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
 				<!--begin::Sidebar-->
-				<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
-					data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}"
-					data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start"
-					data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
+				<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="false"
+				data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}"
+				data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start"
+				data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
 					<!--begin::Logo-->
 					<div class="app-sidebar-logo px-6" id="kt_app_sidebar_logo">
 						<!--begin::Logo image-->
@@ -407,7 +407,7 @@
 									<div class="row">
 										<div class="col-lg-12">
                                             <div class="card">
-                                                <div class="card-header d-flex align-items-center flex-stack p-5 border-0 mb-5">
+                                                <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
                                                     <div class="card-title align-items-start flex-column">
                                                         <div class="d-flex flex-column">
                                                             <!--begin::Info-->
@@ -437,7 +437,349 @@
                                                 </div>
 
                                                 <div class="card-body p-5">
+														<!--begin::Table container-->
+														<div class="table-responsive">
+															<!--begin::Table-->
+															<table class="table table-border align-middle table-striped table-row-bordered table-rounded border gs-0 gy-4">
+																<!--begin::Table head-->
+																<thead class="rounded ">
+																	<tr class="fw-bold text-custom-gray">
+																		<th class="p-4">Insurance Company</th>
+																		<th class="p-4 min-w-125px">Logo</th>
+																		<th class="p-4 min-w-125px">Insurance period</th>
+																		<th class="p-4 min-w-200px">Deductibles</th>
+																		<th class="p-4 min-w-150px">coverage</th>
+																		<th class="p-4 min-w-150px">Premium</th>
+																		<th class="p-4 min-w-100px">Details</th>
+																	</tr>
+																</thead>
+																<!--end::Table head-->
+																<!--begin::Table body-->
+																<tbody>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
 
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
+
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
+
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
+
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-success fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
+
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																	<tr>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">Hashmove</span>
+																		</td>
+																		<td class="p-4">
+																			<img alt="Logo" src="assets/media/logos/Logo.svg" class="h-30px">
+																		</td>
+																		<td class="p-4">
+																			<span class="text-custom-dark d-block fs-6">12 Months</span>
+
+																		</td>
+																		<td class="p-4">
+																			   <!--begin::Input group-->
+																			   <div class="fv-row">
+																				<!--begin::Input-->
+																				<select class="form-select form-select-sm w-75" data-control="select2" data-close-on-select="false" data-placeholder="dropdown">
+																					<option></option>
+																					<option value="1">dropdown </option>
+																					<option value="2">dropdown </option>
+																					<option value="3">dropdown </option>
+																				</select>
+																				<!--end::Input-->
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="text-center">
+																				<span class="badge badge-light-warning fw-semibold fs-6 py-2 w-100px d-flex justify-content-center">ICCA</span>
+																			</div>
+																		</td>
+																		<td class="p-4">
+																			<div class="position-relative d-flex align-items-center w-75">
+																				<img alt="Saudi Riyal" src="assets/media/Svg/Saudi-Riyal.svg" class="fs-2 text-gray-500 position-absolute end-0 mx-4">
+																				<input class="form-control form-control-sm" placeholder="0.00" type="number">
+																			</div>
+																		</td>
+																
+																		<td class="p-4">
+																			<a href="Offer-Details.html" class="btn btn-icon btn-bg-light bg-icon btn-sm me-1">
+																				<i class="ki-duotone ki-eye text-custom-gray fs-2">
+																					<span class="path1"></span>
+																					<span class="path2"></span>
+																					<span class="path3"></span>
+																					</i>
+																			</a>
+																	
+																		</td>
+																	</tr>
+																</tbody>
+																<!--end::Table body-->
+															</table>
+															<!--end::Table-->
+														</div>
+														<!--end::Table container-->
+														<div class="mt-5">
+															<div class="d-flex flex-wrap justify-content-between">
+															<div class="d-flex justify-content-start align-items-sm-start">
+																<div class="d-flex flex-column">
+																<span class="text-custom-dark fw-semibold d-block mt-2 me-5">
+																	Number of items displayed
+																</span>
+																</div>
+
+																<div class="d-flex align-items-center position-relative  me-5">
+																<select class="form-select form-select-sm text-custom-dark">
+																	<option value="1">10</option>
+																	<option value="2">Options 1</option>
+																	<option value="3">Options 2</option>
+																	<option value="4">Options 3</option>
+
+																</select>
+																</div>
+
+															</div>
+
+															<div class="justify-content-end">
+																<ul class="pagination pagination-outline">
+																<li class="page-item previous disabled m-1"><a href="#" class="page-link"><i class="previous"></i></a>
+																</li>
+																<li class="page-item active m-1"><a href="#" class="page-link">1</a></li>
+																<li class="page-item m-1"><a href="#" class="page-link">2</a></li>
+																<li class="page-item m-1"><a href="#" class="page-link">3</a></li>
+																<li class="page-item m-1"><a href="#" class="page-link">4</a></li>
+																<li class="page-item m-1"><a href="#" class="page-link">5</a></li>
+																<li class="page-item m-1"><a href="#" class="page-link">6</a></li>
+																<li class="page-item next m-1"><a href="#" class="page-link"><i class="next"></i></a></li>
+																</ul>
+															</div>
+															</div>
+														</div>
                                                 </div>
                                                 
                                             </div>
