@@ -299,10 +299,30 @@ ul {
     -webkit-box-orient: vertical;
     overflow: hidden;
   }
+
   .HiddenDiv {
     visibility: hidden;
      }
 
+/* .hidden-div{
+    display: none;
+}
+
+.visible {
+    display: block;
+  }  */
+
+  ::file-selector-button {
+    font: inherit;
+    outline: none !important;
+    padding: calc(0.1rem + 0px) calc(0.8rem + 1px);
+    box-shadow: none;
+    color: var(--bs-custom-dark);
+    background-color: var(--bs-primary-light);
+    border-radius: 0;
+    border: 0;
+    cursor: pointer;
+}
 
     
 /*========================================
