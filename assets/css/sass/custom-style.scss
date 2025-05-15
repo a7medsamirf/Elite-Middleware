@@ -731,3 +731,19 @@ input[type=number]::-webkit-outer-spin-button {
             border-radius: 50%;
     }
 }
+
+/*========================================
+/* Risk Classifications
+========================================*/
+
+.RiskClassifications-tabs{
+    position: relative;
+    .nav-link{
+           margin: 0px 47px 0px 0px !important;
+        &.active{
+            color: var(--bs-primary) !important;
+        }
+    }
+}
+
+

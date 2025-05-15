@@ -688,4 +688,17 @@ html[dir=rtl] .top-header::after {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+/*========================================
+/* Risk Classifications
+========================================*/
+.RiskClassifications-tabs {
+  position: relative;
+}
+.RiskClassifications-tabs .nav-link {
+  margin: 0px 47px 0px 0px !important;
+}
+.RiskClassifications-tabs .nav-link.active {
+  color: var(--bs-primary) !important;
 }/*# sourceMappingURL=custom-style.css.map */

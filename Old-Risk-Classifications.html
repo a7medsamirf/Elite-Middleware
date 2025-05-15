@@ -496,7 +496,7 @@
 															<div class="col-xl-3 col-lg-4 col-md-6">
 																<div class="fv-row w-100 flex-md-root">
 																	<label class="form-label fs-7">Search by name</label>
-																	<input type="text" name="search" id="" placeholder="Search by name" class="form-control mb-2 form-control-md" />
+																	<input type="text" name="search" id="" placeholder="Search by name" class="form-control mb-2 form-select-md">
 																</div>
 															</div>
 															<div class="col-xl-3 col-lg-4 col-md-6">
@@ -505,7 +505,7 @@
 																  <label class="form-label">Search by status</label>
 																	<!--end::Label-->
 																     <!--begin::select-->
-																	<select class="form-select form-select-md" data-control="select2" data-close-on-select="false" data-placeholder="Select Parent" multiple="multiple">
+																	<select class="form-select form-select-lg" data-control="select2" data-close-on-select="false" data-placeholder="Select Parent" multiple="multiple">
 																		<option> </option>
 																		<option value="1"> status 1 </option>
 																		<option value="2">  status 2 </option>
@@ -526,11 +526,8 @@
 																	<label class="form-label fs-7">Created From</label>
 																	<!--end::Label-->
 																	<!--begin::Input-->
-		                                                            <div class="position-relative d-flex align-items-center">
-																			<i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
-																				<input class="form-control form-control-md kt_datepicker" placeholder="Enter Expiry date" name="due_date" id="" />                              
-						                                        </div>																	
-																<!--end::Input-->
+																	<input type="date" name="" id="" class="form-control mb-2 form-select-md">
+																	<!--end::Input-->
 																</div>
 															</div>
 															<div class="col-xl-3 col-lg-4 col-md-6">
@@ -539,11 +536,7 @@
 																	<label class="form-label fs-7">Created To</label>
 																	<!--end::Label-->
 																	<!--begin::Input-->
-																 <div class="position-relative d-flex align-items-center">
-																			<i class="isax isax-calendar-1 fs-2 text-gray-500 position-absolute end-0 mx-4"> </i>
-																				<input class="form-control form-control-md kt_datepicker" placeholder="Enter Expiry date" name="due_date" id="" />                              
-						                                        </div>
-
+																	<input type="date" name="" id="" class="form-control mb-2 form-select-md">
 																	<!--end::Input-->
 																</div>
 															</div>
@@ -551,12 +544,12 @@
 																<!--end::Input group-->
 																<div class="d-flex justify-content-end mt-5 gap-3">
 																	<!--begin::Button-->
-																	<a href=""  class="btn btn-danger btn-sm px-10">
-																	<i class="ki-outline  ki-arrows-circle fs-4"></i>   cancel</a>
+																	<a href=""  class="btn btn-danger btn-md  px-md-10 py-3">
+																	<i class="ki-outline  ki-arrows-circle fs-3"></i>   cancel</a>
 																	<!--end::Button-->
 																	<!--begin::Button-->
-																	<button type="submit" class="btn btn-primary btn-sm px-10">
-																		<i class="ki-outline  ki-magnifier fs-4"></i>
+																	<button type="submit" class="btn btn-primary btn-md px-md-10 py-3">
+																		<i class="ki-outline  ki-magnifier fs-3"></i>
 																		<span class="indicator-label">filter</span>
 																	</button>
 																	<!--end::Button-->
@@ -571,383 +564,245 @@
 
                                                 <!--end::Header-->
                                                 <!--begin::Body-->
-                                                <div class="card-body">
-
-												<div class="row">
-													<div class="col-lg-12">
-														<div class="d-flex justify-content-between">
-															<div>
-																<ul class="nav nav-tabs nav-line-tabs nav-line-tabs-2x RiskClassifications-tabs mb-5 fs-6">
-																	<li class="nav-item">
-																		<a class="nav-link active" data-bs-toggle="tab"
-																			href="#EditParent">Edit Parent</a>
-																	</li>
-																	<li class="nav-item">
-																		<a class="nav-link " data-bs-toggle="tab" href="#EditSubParent">Edit Sub Parent</a>
-																	</li>
-																<li class="nav-item">
-																		<a class="nav-link " data-bs-toggle="tab" href="#EditItems">Edit Items</a>
-																	</li>
-																</ul>
-															</div>
-
-														</div>
-
-													</div>
-												</div>
-
-												<div class="tab-content" id="myTabContent">
-													<div class="tab-pane fade show active" id="EditParent" role="tabpanel">
-														<div class="row">
-															<!--begin::Col-->
-																	<div class="col-lg-6 mb-5">
-																		<!--begin::Input group-->
-																		<div class="fv-row">
-																			<!--begin::Label-->
-																			<label class="form-label">Parent</label>
-																			<!--end::Label-->
-
-																			<!--begin::Input-->
-																			<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																				data-placeholder="Select Parent" multiple="multiple">
-																				<option> </option>
-																				<option value="1"> Parent 1 </option>
-																				<option value="2"> Parent 2 </option>
-																				<option value="3"> Parent 3 </option>
-																				<option value="4"> Parent 4 </option>
-																				<option value="5"> Parent 5 </option>
-																				<option value="6"> Parent 6 </option>
-																			</select>
-																			<!--end::Input-->
-																		</div>
-																		<!--end::Input group-->
-																	</div>
-																	<!--begin::Col-->
-
-																	<!--end::Col-->
-																	<div class="col-lg-6 mb-5">
-																		<!--begin::Input group-->
-																		<div class="fv-row">
-																			<!--begin::Label-->
-																			<label class="form-label">Risk level</label>
-																			<!--end::Label-->
-
-																			<!--begin::Input-->
-																			<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																				data-placeholder="Select Risk Level">
-																				<option> </option>
-																				<option value="1"> Very Low Risk </option>
-																				<option value="2"> Low Risk </option>
-																				<option value="3"> Moderate Risk </option>
-																				<option value="4"> High Risk </option>
-																				<option value="5"> Very High Risk </option>
-																				<option value="6"> Extreme Risk </option>
-																			</select>
-																			<!--end::Input-->
-																		</div>
-																		<!--end::Input group-->
-																	</div>
-																	<!--end::Col-->
-
-																		<!--begin::Col-->	
-																		<div class="col-lg-12 mb-5">
-																						<div class="d-flex justify-content-end gap-3">
-																								<button type="button" class="btn custom-btn-light btn-sm px-10">Cancel</button>
-																								<button type="button" class="btn btn-primary btn-sm px-10">Save</button>
-																						</div>
+                                                <div class="card-body py-3">
+														<!--begin::Accordion-->
+													<div class="accordion repair-schedules" id="kt_accordion_1">
+														<div class="accordion-item rounded mb-5">
+															<h2 class="accordion-header" id="kt_accordion_01_header_01">
+																<div class="d-flex align-items-sm-center">
+																	<button
+																		class="accordion-button fs-4 fw-semibold border-0 rounded bg-light-primary"
+																		type="button"
+																		data-bs-toggle="collapse"
+																		data-bs-target="#kt_accordion_01_body_01"
+																		aria-expanded="true"
+																		aria-controls="kt_accordion_01_body_01"
+																	>
+																		<span class="text-dark"> Goods (1) </span>
+																	</button>
+																</div>
+															</h2>
+															<div id="kt_accordion_01_body_01" class="accordion-collapse collapse show" aria-labelledby="kt_accordion_01_header_01" data-bs-parent="#kt_accordion_1">
+																<div class="accordion-body p-5">
+																	<!--begin::Group-->
+																	<div class="row g-5">
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 2</span>
 																					</div>
-																					<!--end::Col-->										
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																			     	<span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
+																				</div>
+
+																			</div>
+																		</div>
+															
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Sub Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 4</span>
+																					</div>
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																			     	<span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
+																				</div>
+																			</div>
+																		</div>
+
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Item </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 3</span>
+																					</div>
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																			     	<span class="text-custom-gray fw-semibold fs-6"> High Risk </span>
+																				</div>
+
+																			</div>
+																		</div>
+																	</div>
+																	<!--end::Group-->
+
+																	<div class="d-flex justify-content-end mt-5">
+																		<a href="Edit-Risk-Classifications.html" type="button" class="btn btn-primary btn-sm px-10">  Edit </a>
+																</div>
+																</div>
+															</div>
 														</div>
-										
-													</div>
-													<div class="tab-pane fade " id="EditSubParent" role="tabpanel">
-														<div class="row">
-															<!--begin::Col-->	
-															<div class="col-lg-6 mb-5">
-																<!--begin::Input group-->
-																<div class="fv-row">
-																	<!--begin::Label-->
-																	<label class="form-label">Parent</label>
-																	<!--end::Label-->
-
-																	<!--begin::Input-->
-																	<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																		data-placeholder="Select Parent" multiple="multiple">
-																		<option> </option>
-																		<option value="1"> Parent 1 </option>
-																		<option value="2"> Parent 2 </option>
-																		<option value="3"> Parent 3 </option>
-																		<option value="4"> Parent 4 </option>
-																		<option value="5"> Parent 5 </option>
-																		<option value="6"> Parent 6 </option>
-																	</select>
-																	<!--end::Input-->
+														<div class="accordion-item rounded mb-5">
+															<h2 class="accordion-header" id="kt_accordion_02_header_02">
+																<div class="d-flex align-items-sm-center">
+																	<button
+																		class="accordion-button fs-4 fw-semibold border-0 rounded bg-light-primary"
+																		type="button"
+																		data-bs-toggle="collapse"
+																		data-bs-target="#kt_accordion_02_body_02"
+																		aria-expanded="true"
+																		aria-controls="kt_accordion_02_body_02"
+																	>
+																		<span class="text-dark"> Goods (2) </span>
+																	</button>
 																</div>
-																<!--end::Input group-->
-															</div>
-															<!--end::Col-->		
-
-														<!--begin::Col-->	
-															<div class="col-lg-6 mb-5">
-																<!--begin::Input group-->
-																<div class="fv-row">
-																	<!--begin::Label-->
-																	<label class="form-label">Risk level</label>
-																	<!--end::Label-->
-
-																	<!--begin::Input-->
-																	<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																		data-placeholder="Select Risk Level">
-																		<option> </option>
-																		<option value="1"> Very Low Risk </option>
-																		<option value="2"> Low Risk </option>
-																		<option value="3"> Moderate Risk </option>
-																		<option value="4"> High Risk </option>
-																		<option value="5"> Very High Risk </option>
-																		<option value="6"> Extreme Risk </option>
-																	</select>
-																	<!--end::Input-->
-																</div>
-																<!--end::Input group-->
-															</div>
-															<!--end::Col-->		
-
-														<!--begin::Col-->	
-															<div class="col-lg-6 mb-5">
-																<!--begin::Input group-->
-																<div class="fv-row">
-																	<!--begin::Label-->
-																	<label class="form-label">Sub Parent</label>
-																	<!--end::Label-->
-
-																	<!--begin::Input-->
-																	<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																		data-placeholder="Select Sub Parent" multiple="multiple">
-																		<optgroup label="Parent 1">
-																			<option value="1"> Sub Parent 1 </option>
-																			<option value="2"> Sub Parent 2 </option>
-																			<option value="3"> Sub Parent 3 </option>
-																		</optgroup>
-																		<optgroup label="Parent 2">
-																			<option value="1"> Sub Parent 1 </option>
-																			<option value="2"> Sub Parent 2 </option>
-																		</optgroup>
-																	</select>
-																	<!--end::Input-->
-																</div>
-																<!--end::Input group-->
-															</div>
-															<!--end::Col-->		
-
-														<!--begin::Col-->	
-															<div class="col-lg-6 mb-5">
-																<!--begin::Input group-->
-																<div class="fv-row">
-																	<!--begin::Label-->
-																	<label class="form-label">Risk level</label>
-																	<!--end::Label-->
-
-																	<!--begin::Input-->
-																	<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																		data-placeholder="Select Risk Level">
-																		<option> </option>
-																		<option value="1"> Very Low Risk </option>
-																		<option value="2"> Low Risk </option>
-																		<option value="3"> Moderate Risk </option>
-																		<option value="4"> High Risk </option>
-																		<option value="5"> Very High Risk </option>
-																		<option value="6"> Extreme Risk</option>
-																	</select>
-																	<!--end::Input-->
-																</div>
-																<!--end::Input group-->
-															</div>
-																<!--end::Col-->		
-
-														<!--begin::Col-->	
-															<div class="col-lg-12 mb-5">
-																			<div class="d-flex justify-content-end gap-3">
-																					<button type="button" class="btn custom-btn-light btn-sm px-10">Cancel</button>
-																					<button type="button" class="btn btn-primary btn-sm px-10">Save</button>
+															</h2>
+															<div id="kt_accordion_02_body_02" class="accordion-collapse collapse" aria-labelledby="kt_accordion_02_header_02" data-bs-parent="#kt_accordion_1">
+																<div class="accordion-body p-5">
+																	<!--begin::Group-->
+																	<div class="row g-5">
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 2</span>
+																					</div>
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
+																				</div>
+														
 																			</div>
-																</div>
-																<!--end::Col-->			
+																		</div>
+															
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Sub Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 4</span>
+																					</div>
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
+																				</div>
+																			</div>
+																		</div>
+														
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Item </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 3</span>
+																					</div>
+																				</div>
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> High Risk </span>
+																				</div>
+														
+																			</div>
+																		</div>
 																	</div>
-													</div>
-													<div class="tab-pane fade" id="EditItems" role="tabpanel">
-																		<div class="row">
-																			<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Parent</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Parent" multiple="multiple">
-																						<option> </option>
-																						<option value="1"> Parent 1 </option>
-																						<option value="2"> Parent 2 </option>
-																						<option value="3"> Parent 3 </option>
-																						<option value="4"> Parent 4 </option>
-																						<option value="5"> Parent 5 </option>
-																						<option value="6"> Parent 6 </option>
-																					</select>
-																					<!--end::Input-->
+																	<!--end::Group-->
+														
+																	<div class="d-flex justify-content-end mt-5">
+																		<a href="Edit-Risk-Classifications.html" type="button" class="btn btn-primary btn-sm px-10">  Edit </a>
+																</div>
+																</div>
+															</div>
+														</div>
+														<div class="accordion-item rounded mb-5">
+															<h2 class="accordion-header" id="kt_accordion_03_header_03">
+																<div class="d-flex align-items-sm-center">
+																	<button
+																		class="accordion-button fs-4 fw-semibold border-0 rounded bg-light-primary"
+																		type="button"
+																		data-bs-toggle="collapse"
+																		data-bs-target="#kt_accordion_03_body_03"
+																		aria-expanded="true"
+																		aria-controls="kt_accordion_03_body_03"
+																	>
+																		<span class="text-dark"> Goods (3) </span>
+																	</button>
+																</div>
+															</h2>
+															<div id="kt_accordion_03_body_03" class="accordion-collapse collapse" aria-labelledby="kt_accordion_03_header_03" data-bs-parent="#kt_accordion_1">
+																<div class="accordion-body p-5">
+																	<!--begin::Group-->
+																	<div class="row g-5">
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Parent 2</span>
+																					</div>
 																				</div>
-																				<!--end::Input group-->
-																			</div>
-																			<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Risk level</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Risk Level">
-																						<option> </option>
-																						<option value="1"> Very Low Risk </option>
-																						<option value="2"> Low Risk </option>
-																						<option value="3"> Moderate Risk </option>
-																						<option value="4"> High Risk </option>
-																						<option value="5"> Very High Risk </option>
-																						<option value="6"> Extreme Risk </option>
-																					</select>
-																					<!--end::Input-->
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
 																				</div>
-																				<!--end::Input group-->
+														
 																			</div>
-																			<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Sub Parent</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Sub Parent" multiple="multiple">
-																						<optgroup label="Parent 1">
-																							<option value="1"> Sub Parent 1 </option>
-																							<option value="2"> Sub Parent 2 </option>
-																							<option value="3"> Sub Parent 3 </option>
-																						</optgroup>
-																						<optgroup label="Parent 2">
-																							<option value="1"> Sub Parent 1 </option>
-																							<option value="2"> Sub Parent 2 </option>
-																						</optgroup>
-																					</select>
-																					<!--end::Input-->
+																		</div>
+															
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Sub Parent </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Sub Parent 4</span>
+																					</div>
 																				</div>
-																				<!--end::Input group-->
-																			</div>
-																			<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Risk level</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Risk Level">
-																						<option> </option>
-																						<option value="1"> Very Low Risk </option>
-																						<option value="2"> Low Risk </option>
-																						<option value="3"> Moderate Risk </option>
-																						<option value="4"> High Risk </option>
-																						<option value="5"> Very High Risk </option>
-																						<option value="6"> Extreme Risk</option>
-																					</select>
-																					<!--end::Input-->
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> Low Risk </span>
 																				</div>
-																				<!--end::Input group-->
 																			</div>
-																			<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Item</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Item" multiple="multiple">
-																						<optgroup label="Sub Parent 1">
-																							<option value="1"> Item 1 </option>
-																							<option value="2"> Item 2 </option>
-																							<option value="3"> Item 3 </option>
-																						</optgroup>
-																						<optgroup label="Sub Parent 2">
-																							<option value="1"> Item 1 </option>
-																							<option value="2"> Item 2 </option>
-																						</optgroup>
-																					</select>
-																					<!--end::Input-->
+																		</div>
+														
+																		<div class="col-12 col-md-4">
+																			<div class="d-flex flex-column">
+																				<div class="mb-5">
+																					<span class="text-custom-dark fs-6"> Item </span>
+																					<div class="d-flex gap-3 mt-2">
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 1</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 2</span>
+																						<span class="badge bg-custom-light fw-light border text-dark fs-7 py-2 px-4">Item 3</span>
+																					</div>
 																				</div>
-																				<!--end::Input group-->
-																			</div>
-																			<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-6 mb-5">
-																				<!--begin::Input group-->
-																				<div class="fv-row">
-																					<!--begin::Label-->
-																					<label class="form-label">Risk level</label>
-																					<!--end::Label-->
-
-																					<!--begin::Input-->
-																					<select class="form-select form-select-md" data-control="select2" data-close-on-select="false"
-																						data-placeholder="Select Risk Level">
-																						<option> </option>
-																						<option value="1"> Very Low Risk </option>
-																						<option value="2"> Low Risk </option>
-																						<option value="3"> Moderate Risk </option>
-																						<option value="4"> High Risk </option>
-																						<option value="5"> Very High Risk </option>
-																						<option value="6"> Extreme Risk </option>
-																					</select>
-																					<!--end::Input-->
-
+																				<div class="d-grid">
+																					<span class="text-custom-dark fs-6 mb-1"> Risk Level </span>
+																					 <span class="text-custom-gray fw-semibold fs-6"> High Risk </span>
 																				</div>
-																				<!--end::Input group-->
+														
 																			</div>
-																		<!--end::Col-->		
-
-																		<!--begin::Col-->	
-																			<div class="col-lg-12 mb-5">
-																							<div class="d-flex justify-content-end gap-3">
-																									<button type="button" class="btn custom-btn-light btn-sm px-10">Cancel</button>
-																									<button type="button" class="btn btn-primary btn-sm px-10">Save</button>
-																							</div>
-																			</div>
-																			<!--end::Col-->			
+																		</div>
 																	</div>
+																	<!--end::Group-->
+														
+																	<div class="d-flex justify-content-end mt-5">
+																		<a href="Edit-Risk-Classifications.html" type="button" class="btn btn-primary btn-sm px-10">  Edit </a>
+																</div>
+																</div>
+															</div>
+														</div>
 													</div>
-												</div>
-
-
-
-
-
-
+													<!--end::Accordion-->
 
 
                                                 </div>
@@ -989,9 +844,7 @@
 	<!--end::Javascript-->
 
 
-	<script>
-		$(".kt_datepicker").flatpickr();
-		</script>
+
 
 </body>
 <!--end::Body-->
