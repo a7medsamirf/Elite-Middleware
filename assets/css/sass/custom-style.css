@@ -317,6 +317,19 @@ ul {
   cursor: pointer;
 }
 
+.UploadFile-btn {
+  position: relative;
+  overflow: hidden;
+}
+.UploadFile-btn .UploadFile-input {
+  position: absolute;
+  cursor: pointer;
+  font-size: 50px;
+  opacity: 0;
+  right: 0;
+  top: 0;
+}
+
 /*========================================
 /* accordion
 ========================================*/
