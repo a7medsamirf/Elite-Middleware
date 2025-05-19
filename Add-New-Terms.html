@@ -4,7 +4,7 @@
 <!--begin::Head-->
 
 <head>
-	<title>Elite Middleware / Log Details</title>
+	<title>Elite Middleware / Users</title>
 	<meta charset="utf-8" />
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
@@ -22,6 +22,7 @@
 	data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true"
 	data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
 	data-kt-app-sidebar-push-footer="true" data-kt-app-toolbar-fixed="true" class="app-default">
+
 
 
 	<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
@@ -74,7 +75,7 @@
 								</li>
 								<!--end::Item-->
 								<!--begin::Item-->
-								<li class="breadcrumb-item text-custom-gray fs-7">Log list</li>
+								<li class="breadcrumb-item text-custom-gray fs-7"> Terms & Conditions </li>
 								<!--end::Item-->
 							</ul>
 							<!--end::Breadcrumb-->
@@ -93,7 +94,6 @@
 									<span
 										class="position-absolute top-0 start-100 translate-middle badge badge-circle badge-danger ms-n4 mt-3">14</span>
 								</button>
-
 								<!--begin::User account menu-->
 								<div>
 									<div class="d-flex align-items-center px-3 cursor-pointer"
@@ -227,8 +227,8 @@
 			<!--end::Header-->
 			<!--begin::Wrapper-->
 			<div class="app-wrapper flex-column flex-row-fluid" id="kt_app_wrapper">
-				<!--begin::Sidebar-->
-				<div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
+					<!--begin::Sidebar-->
+                    <div id="kt_app_sidebar" class="app-sidebar flex-column" data-kt-drawer="true"
 					data-kt-drawer-name="app-sidebar" data-kt-drawer-activate="{default: true, lg: false}"
 					data-kt-drawer-overlay="true" data-kt-drawer-width="225px" data-kt-drawer-direction="start"
 					data-kt-drawer-toggle="#kt_app_sidebar_mobile_toggle">
@@ -276,20 +276,19 @@
 
 
 					<!--end::Logo-->
-
-		
-				<!--begin::sidebar menu-->
-				<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
-					<!--begin::Menu wrapper-->
-					<div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper">
-						<!--begin::Scroll wrapper-->
-						<div id="kt_app_sidebar_menu_scroll" class="scroll-y my-5 mx-3" data-kt-scroll="true"
-							data-kt-scroll-activate="true" data-kt-scroll-height="auto"
-							data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
-							data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
-							data-kt-scroll-save-state="true">
-							<!--begin::Menu-->
-							<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
+					
+					<!--begin::sidebar menu-->
+					<div class="app-sidebar-menu overflow-hidden flex-column-fluid">
+						<!--begin::Menu wrapper-->
+						<div id="kt_app_sidebar_menu_wrapper" class="app-sidebar-wrapper">
+							<!--begin::Scroll wrapper-->
+							<div id="kt_app_sidebar_menu_scroll" class="scroll-y my-5 mx-3" data-kt-scroll="true"
+								data-kt-scroll-activate="true" data-kt-scroll-height="auto"
+								data-kt-scroll-dependencies="#kt_app_sidebar_logo, #kt_app_sidebar_footer"
+								data-kt-scroll-wrappers="#kt_app_sidebar_menu" data-kt-scroll-offset="5px"
+								data-kt-scroll-save-state="true">
+								<!--begin::Menu-->
+								<div class="menu menu-column menu-rounded menu-sub-indention fw-semibold fs-6"
 								id="kt_app_sidebar_menu" data-kt-menu="true" data-kt-menu-expand="false">
 								<!--begin:Menu content-->
 								<div class="menu-item">
@@ -408,7 +407,7 @@
 								<div class="menu-item menu-accordion">
 									<!--begin:Menu link-->
 									<a href="Logs.html">
-										<span class="menu-link rounded-0 active p-3">
+										<span class="menu-link p-3">
 											<span class="menu-icon">
 												<i class="isax isax-note-21 fs-2"></i>
 											</span>
@@ -430,9 +429,8 @@
 								</div>
 								<div class="menu-item menu-accordion">
 									<a href="Terms-Conditions.html">
-										<span class="menu-link p-3">
+										<span class="menu-link rounded-0 active p-3">
 											<span class="menu-icon">
-								
 												<i class="isax isax-task fs-2"></i>
 											</span>
 											<span class="menu-title">Terms & Conditions</span>
@@ -441,13 +439,13 @@
 								</div> 
 							</div>
 
-							<!--end::Menu-->
+								<!--end::Menu-->
+							</div>
+							<!--end::Scroll wrapper-->
 						</div>
-						<!--end::Scroll wrapper-->
+						<!--end::Menu wrapper-->
 					</div>
-					<!--end::Menu wrapper-->
-				</div>
-				<!--end::sidebar menu-->
+					<!--end::sidebar menu-->
 
 				</div>
 				<!--end::Sidebar-->
@@ -482,7 +480,7 @@
 													<!--begin::Title-->
 													<div>
 														<div class="page-heading text-primary fw-bold fs-5 my-0">
-                                                            Back
+															Back
 														</div>
 														<!--end::Title-->
 									
@@ -491,7 +489,16 @@
 												</div>
 												<!--end::Page title-->
 											</div>
+									
+											<div class="d-flex align-items-center gap-3">
+													<a href="#" class="btn custom-btn-light btn-sm px-10">
+														Cancel
+													</a>
+                                                    <a href="#" class="btn btn-primary btn-sm px-10">
+														Save
+													</a>
 
+												</div>
 									
 												</div>
 											</div>
@@ -500,158 +507,71 @@
 									</div>
 										<!--end::Toolbar container-->
 
-								<section class="">
-									<div class="row">
-										<div class="col-lg-12">
-										<div class="card">
-                                            <div class="card-header align-items-center p-5 border-0">
-                                                <div class="card-title align-items-start flex-column">
-                                                  <div class="d-flex flex-column">
-                                                  <!--begin::Info-->
-                                                  <div class="d-flex flex-wrap">
-                                                    <span class="d-flex align-items-center">
-                                                    <h3 class="card-title text-primary fs-2 m-0"> Aduit Log (19703) </h3>
-                                                    </span>
-                                              
+
+							<!--begin::Main-->
+							<div class="d-flex flex-column flex-column-fluid">
+
+                                <section class="">
+                                    <div class="row">
+                                      <div class="col-lg-12">
+                                        <div class="card mb-5">
+                                          <div class="card-header align-items-center p-5 border-0">
+                                            <div class="card-title align-items-start flex-column">
+                                              <div class="d-flex flex-column">
+                                              <!--begin::Info-->
+                                              <div class="d-flex flex-wrap">
+                                                <span class="d-flex align-items-center">
+                                                <h3 class="card-title text-primary fs-2 m-0"> Add New Additional Condition </h3>
+                                                </span>
+                                          
+                                              </div>
+                                              <!--end::Info-->
+                                              </div>
+                                          
+                                            </div>
+                                  
+                                            </div>
+                                          <div class="card-body p-5">
+                                            
+                                                <div class="row">
+                                                  <div class="col-lg-12 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Code</label>
+                                                      <!--end::Label-->
+                                                      <!--begin::Input-->
+                                                      <input type="text" placeholder="Enter Code" name="text"  class="form-control form-control-lg">
+    
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
                                                   </div>
-                                                  <!--end::Info-->
+                                                  <div class="col-lg-12 mb-5">
+                                                    <!--begin::Input group-->
+                                                    <div class="fv-row">
+                                                      <!--begin::Label-->
+                                                      <label class="form-label">Condition</label>
+                                                      <!--end::Label-->
+                                  
+                                                      <!--begin::Input-->
+													  <textarea class="form-control form-control-lg" placeholder="Enter Condition" id="" rows="3"></textarea>
+                                                      <!--end::Input-->
+                                                    </div>
+                                                    <!--end::Input group-->
                                                   </div>
-                                              
-                                                </div>
-                                      
-                                                </div>
-											<div class="card-body p-5">
-                                                <div class="row g-5">
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> ID </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 11805 </span>
-                                                        </div>
-                                                    </div>
-                                                
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1">Event</span>
-                                                            <span class="text-custom-gray fw-semibold fs-6">Deleted</span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> Model </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> Insurance Company </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> Model ID </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 10 </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> Date </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 02-02-2025 </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> Time </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 12:00 PM </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> Old Value </span>
-                                                            <div class="p-5 rounded border border-3 bg-custom-light">
-                                                                <div class="d-flex justify-content-between ">
-                                                                    <span class="text-dark fw-semibold fs-6 w-25"> 
-                                                                        const shipment = {
-                                                                            components: ['resistors', 'capacitors', 'microchips'],
-                                                                            totalWeight: '500kg',
-                                                                            origin: 'Tech City',
-                                                                            destination: 'Innovation Hub'
-                                                                          };
-                                                                    </span>
-                                                                    <a href="" class="">
-                                                                        <i class="ki-duotone ki-copy text-custom-gray fw-semibold fs-6"> </i>    
-                                                                    </a>
-                                                                </div>
-                                                            
-                                                            </div>
-                                                      
-                                                      
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> New Value </span>
-                                                            <div class="p-5 rounded border border-3 bg-custom-light">
-                                                                <div class="d-flex justify-content-between ">
-                                                                    <span class="text-dark fw-semibold fs-6 w-25"> 
-                                                                        const shipment = {
-                                                                            components: ['resistors', 'capacitors', 'microchips'],
-                                                                            totalWeight: '500kg',
-                                                                            origin: 'Tech City',
-                                                                            destination: 'Innovation Hub'
-                                                                          };
-                                                                    </span>
-                                                                    <a href="" class="">
-                                                                        <i class="ki-duotone ki-copy text-custom-gray fw-semibold fs-6"> </i>    
-                                                                    </a>
-                                                                </div>
-                                                            
-                                                            </div>
-                                                      
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> User </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> Admin </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> IP Address </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 156.198.0.23 </span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> URL </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> www.example.com/02-01-2025 </span>
-                                                        </div>
-                                                    </div>
-
-                                                    <div class="col-12 col-md-6">
-                                                        <div class="d-flex flex-column">
-                                                            <span class="text-custom-dark fs-7 mb-1"> User Agent </span>
-                                                            <span class="text-custom-gray fw-semibold fs-6"> 123497288168102874 </span>
-                                                        </div>
-                                                    </div>
 
 
                                                 </div>
-	                          
-
-											</div>
-										</div>
-
-
-
-										</div>
-									</div>
-
-
-								</section>
+                                   
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  
+                                  
+                                  </section>
+                                  
 
 
 

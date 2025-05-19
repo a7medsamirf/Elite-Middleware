@@ -111,6 +111,13 @@
   color: var(--bs-stroke);
 }
 
+.bg-stroke {
+  background-color: var(--bs-stroke);
+  &:hover {
+    background-color: var(--bs-gray-400);
+  }
+}
+
 .text-custom-dark {
   color: var(--bs-custom-dark);
 }
