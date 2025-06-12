@@ -491,8 +491,36 @@
                                             <div class="d-flex align-items-center justify-content-center">
                                                 <!--begin::Nav-->
                                                 <div class="stepper-nav flex-wrap">
-                                                    <!--begin::Step 1-->
+                                                           <!--begin::Step 1-->
                                                     <div class="stepper-item mx-8 my-4 current d-grid" data-kt-stepper-element="nav">
+                                                        <!--begin::Wrapper-->
+                                                        <div class="stepper-wrapper d-flex gap-5 w-100">
+                                                            <!--begin::Icon-->
+                                                            <div class="stepper-icon w-40px h-40px m-0">
+                                                                <i class="stepper-check ki-duotone ki-check text-white fs-1">
+                                                                    <span class="path1"></span>
+                                                                    <span class="path2"></span>
+                                                                </i>
+
+                                                                <span class="stepper-number">1</span>
+                                                            </div>
+                                                            <!--end::Icon-->
+                                                            <!--begin::Line-->
+                                                            <div class="stepper-line"></div>
+                                                            <!--end::Line-->
+                                                        </div>
+                                                        <!--end::Wrapper-->
+                                                        <!--begin::Label-->
+                                                        <div class="stepper-label mt-5">
+                                                            <h3 class="stepper-title fs-5">
+                                                             Table Name
+                                                            </h3>
+                                                        </div>
+                                                        <!--end::Label-->
+                                                    </div>
+                                                    <!--end::Step 1-->
+                                                    <!--begin::Step 2-->
+                                                    <div class="stepper-item mx-8 my-4 d-grid" data-kt-stepper-element="nav">
                                                         <!--begin::Wrapper-->
                                                         <div class="stepper-wrapper d-flex gap-5 w-100">
                                                             <!--begin::Icon-->
@@ -518,8 +546,8 @@
                                                         </div>
                                                         <!--end::Label-->
                                                     </div>
-                                                    <!--end::Step 1-->
-                                                    <!--begin::Step 2-->
+                                                    <!--end::Step 2-->
+                                                    <!--begin::Step 3-->
                                                     <div class="stepper-item mx-8 my-4 d-grid" data-kt-stepper-element="nav">
                                                         <!--begin::Wrapper-->
                                                         <div class="stepper-wrapper d-flex gap-5 w-100">
@@ -546,9 +574,9 @@
                                                         </div>
                                                         <!--end::Label-->
                                                     </div>
-                                                    <!--end::Step 2-->
+                                                    <!--end::Step 3-->
 
-                                                    <!--begin::Step 3-->
+                                                    <!--begin::Step 4-->
                                                     <div class="stepper-item mx-8 my-4 d-grid" data-kt-stepper-element="nav">
                                                         <!--begin::Wrapper-->
                                                         <div class="stepper-wrapper d-flex gap-5 w-100">
@@ -572,7 +600,7 @@
                                                         </div>
                                                         <!--end::Label-->
                                                     </div>
-                                                    <!--end::Step 3-->
+                                                    <!--end::Step 4-->
                                                 </div>
                                                 <!--end::Nav-->
                                             </div>
@@ -581,14 +609,128 @@
 
                                     <!--begin::Form-->
                                     <form class="form" novalidate="novalidate">
-                                        <div class="card mb-5">
-                                            <div class="card-body p-5">
-                                                <!--begin::Group-->
-                                                <div class="mb-5">
-                                                    <!--begin::Step 1-->
-                                                    <div class="flex-column current" data-kt-stepper-element="content">
-                                                    <div>
-                                                        <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                     
+                                                 <!--begin::Step 1-->
+
+                                             <div class="flex-column current" data-kt-stepper-element="content">
+                                                    <div class="card mb-5">
+                                                            <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
+                                                                <div class="card-title align-items-start flex-column">
+                                                                    <div class="d-flex flex-column">
+                                                                        <!--begin::Info-->
+                                                                        <div class="d-flex flex-wrap">
+                                                                            <span class="d-flex align-items-center text-dark title-icon">
+                                                                                <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                    <i class="ki-solid ki-minus-folder fs-4 text-primary"> </i>
+                                                                                </span>
+
+                                                                                <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                Table Name
+                                                                                </h3>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!--end::Info-->
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="">
+                                                                    <!--Start:: Auto saving -->
+                                                                    <div class="text-success">
+                                                                        <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                        <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        <div class="card-body p-5">
+                                                                <div class="row">
+                                                                        <!--begin::Col-->
+                                                                            <div class="col-lg-12 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">Name </label>
+                                                                                    <input type="text" class="form-control " placeholder="Enter Table Name" >
+                                                                                </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                </div>
+                                                            </div>
+
+                                                      </div>
+                                                  <div class="card mb-5">
+                                                            <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
+                                                                <div class="card-title align-items-start flex-column">
+                                                                    <div class="d-flex flex-column">
+                                                                        <!--begin::Info-->
+                                                                        <div class="d-flex flex-wrap">
+                                                                            <span class="d-flex align-items-center text-dark title-icon">
+                                                                                <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
+                                                                                    <i class="ki-solid ki-minus-folder fs-4 text-primary"> </i>
+                                                                                </span>
+
+                                                                                <h3 class="card-title fw-bold fs-3 m-0">
+                                                                                     DEDUCTIBLES list
+                                                                                </h3>
+                                                                            </span>
+                                                                        </div>
+                                                                        <!--end::Info-->
+                                                                    </div>
+                                                                </div>
+
+                                                                <div class="">
+                                                                    <!--Start:: Auto saving -->
+                                                                    <div class="text-success">
+                                                                        <i class="ki-outline ki-loading text-gray-600 fs-5"></i>
+                                                                        <span class="fs-5 text-gray-600">Auto saving</span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                        <div class="card-body p-5">
+                                                                <div class="row">
+                                                                        <!--begin::Col-->
+                                                                            <div class="col-lg-6 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">Name </label>
+                                                                                    <input type="text" class="form-control " placeholder="Enter Table Name" >
+                                                                                </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                           <!--begin::Col-->
+                                                                            <div class="col-lg-6 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">percentage (%) </label>
+                                                                                    <input type="number" class="form-control " placeholder="Enter percentage" >
+                                                                                </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                           <!--begin::Col-->
+                                                                            <div class="col-lg-6 mb-5">
+                                                                                <div class="fv-row">
+                                                                                    <label class="form-label">Minimum Price </label>
+                                                                                    <input type="number" class="form-control " placeholder="Enter Minimum Price" >
+                                                                                </div>
+                                                                        </div>
+                                                                        <!--end::Col-->
+                                                                </div>
+                                                                <div class="d-flex ">
+                                                                    <div>
+                                                                        <button type="button" class="btn btn-outline btn-outline-primary btn-sm" >
+                                                                            <i class="ki-duotone ki-plus fs-3"></i>
+                                                                           Add New
+                                                                        </button>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+                                                      </div>
+                                                    </div>
+
+                                                    <!--End::Step 1-->
+
+                                                    <!--begin::Step 2-->
+                                                    <div class="flex-column" data-kt-stepper-element="content">
+                                                     <div class="card mb-5">
+                                                        <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
                                                             <div class="card-title align-items-start flex-column">
                                                                 <div class="d-flex flex-column">
                                                                     <!--begin::Info-->
@@ -599,7 +741,7 @@
                                                                             </span>
 
                                                                             <h3 class="card-title fw-bold fs-3 m-0">
-                                                                                Second step : INSTITUTE CARGO CLAUSES (C) (basic coverage)
+                                                                            INSTITUTE CARGO CLAUSES (A) (all risks)
                                                                             </h3>
                                                                         </span>
                                                                     </div>
@@ -620,6 +762,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                             <div class="card-body p-5">
                                                         <div class="row">
                                                             <div class="col-lg-12">
                                                                 <div class="table-responsive">
@@ -726,15 +869,16 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        </div>
                                                     </div>
 
                                                     </div>
-                                                    <!--End::Step 1-->
+                                                    <!--End::Step 2-->
 
-                                                    <!--begin::Step 2-->
+                                                    <!--begin::Step 3-->
                                                     <div class="flex-column" data-kt-stepper-element="content">
-                                                        <div>
-                                                            <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                        <div class="card mb-5">
+                                                            <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
                                                                 <div class="card-title align-items-start flex-column">
                                                                     <div class="d-flex flex-column">
                                                                         <!--begin::Info-->
@@ -745,7 +889,7 @@
                                                                                 </span>
                                                             
                                                                                 <h3 class="card-title fw-bold fs-3 m-0">
-                                                                                    Second step 
+                                                                                  Second step : INSTITUTE CARGO CLAUSES (C) (basic coverage)
                                                                                 </h3>
                                                                             </span>
                                                                         </div>
@@ -767,6 +911,7 @@
                                                                     </div>
                                                                 </div>
                                                             </div>
+                                                                 <div class="card-body p-5">
                                                             <div class="row">
                                                                 <div class="col-lg-12">
                                                                     <div class="table-responsive">
@@ -874,13 +1019,15 @@
                                                                 </div>
                                                             </div>
                                                             </div>
+                                                            </div>
                                                     </div>
-                                                    <!--End::Step 2-->
+                                                    <!--End::Step 3-->
 
-                                                    <!--begin::Step 3-->
+                                                    <!--begin::Step 4-->
                                                     <div class="flex-column" data-kt-stepper-element="content">
                                                         <div id="Insurance-Brokerage"  style="display: block;"> 
-                                                            <div class="card-header d-flex align-items-center flex-stack p-0 border-0 mb-5">
+                                                         <div class="card mb-5">
+                                                            <div class="card-header d-flex align-items-center flex-stack p-5 border-0">
                                                                 <div class="card-title align-items-start flex-column">
                                                                     <div class="d-flex align-items-center text-dark title-icon">
                                                                         <span class="border rounded-3 btn btn-sm btn-icon text-primary me-3">
@@ -893,7 +1040,7 @@
                                                                 </div>
     
                                                             </div>
-    
+                                                      <div class="card-body p-5">
                                                             <div class="row">
                                                                 <div class="col-lg-12 mb-5">
                                                                     <!--begin::Input group-->
@@ -918,15 +1065,11 @@
                                                                 </div>
     
                                                             </div>
-                                                            <div class="d-flex justify-content-end">
-                                                                <div>
-                                                                <!--     <button type="button" class="btn btn-danger btn-sm px-10">   Delete </button> -->
-                                                                 
-                                                                </div>
                                                             </div>
-    
+                                                          </div>
                                                         </div>
                                                         <div id="successfully-completed" style="display: none;">
+                                                             <div class="card p-5">
                                                         <div class="row d-flex justify-content-center " >
                                                             <div class="col-lg-4">
                                                                 <div class="d-flex align-items-center justify-content-center h-500px">
@@ -952,13 +1095,12 @@
                                                         </div>
                                                        </div>
                                                     </div>
-                                                    <!--End::Step 3-->
-                                                </div>
-                                                <!--end::Group-->
-                                            </div>
-                                        </div>
-                                   
+                                                  </div>
+                                                    <!--End::Step 4-->
 
+                                
+                                   
+                                        
                                         <!--begin::Actions-->
                                         <div id="Actions-card" class="card mb-5">
                                             <div class="p-5">
