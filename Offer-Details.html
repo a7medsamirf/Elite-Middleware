@@ -18,6 +18,31 @@
 <!--end::Head-->
 <!--begin::Body-->
 
+<style>
+
+@media print {
+	.app-header,
+	.app-toolbar{
+		display: none;
+	}
+  .report-section {
+    &>div {
+      page-break-after: always;
+    }
+  }
+
+  .no-print {
+    display: none;
+  }
+   @page {
+      size: A4 portrait;
+      margin: 1cm;
+    }
+}
+</style>
+
+
+
 <body id="kt_app_body" data-kt-app-layout="light-sidebar" data-kt-app-header-fixed="true"
 	data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-hoverable="true"
 	data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true"
